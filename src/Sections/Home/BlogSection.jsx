@@ -1,0 +1,85 @@
+import Button from '@/components/ui/Button'
+import BlogGrid from '@/components/BlogGrid'
+
+/**
+ * BlogSection — Full homepage section: heading + "View all" CTA + subtitle + 3-column grid.
+ * Prop-driven for easy CMS integration.
+ *
+ * @param {string} title        - section heading
+ * @param {string} subtitle     - description under the header
+ * @param {string} viewAllText  - CTA button label
+ * @param {string} viewAllHref  - CTA button destination
+ * @param {Array}  items        - passed straight through to BlogGrid
+ */
+export default function BlogSection({
+  title = 'Latest Blog',
+  subtitle = 'Stay informed with expert articles, legal insights, case analysis, and educational resources covering Intellectual Property Law.',
+  viewAllText = 'View All Blogs',
+  viewAllHref = '/blogs',
+  items,
+}) {
+  return (
+    <section className="flex w-full flex-col items-center overflow-hidden px-[var(--S24)] py-16 md:px-[var(--S40)] md:py-[50px] bg-[var(--background)]"
+    >
+      
+      {/* 7XL Container (1280px exactly matching Figma) */}
+      <div className="flex w-full max-w-7xl flex-col items-start gap-[80px]">
+        
+        {/* Header Area */}
+        <div className="flex w-full flex-col items-start gap-3">
+          <div className="flex w-full items-center justify-between gap-[var(--S16)]">
+            <h2 className="heading-h2 font-bold text-[var(--primary-main)]">
+              {title}
+            </h2>
+            
+            {/* Desktop Button: Hides on tablet/mobile */}
+            <div className="hidden shrink-0 lg:block">
+              <Button 
+                as="link" 
+                href={viewAllHref} 
+                variant="outliner" 
+              >
+                {viewAllText}
+              </Button>
+            </div>
+          </div>
+          
+          <p className="max-w-[896px] text-[18px] font-normal text-[var(--text-main)] font-secondary leading-[1.6]">
+            {subtitle}
+          </p>
+        </div>
+
+        {/* Grid Container */}
+        <div className="flex w-full flex-col gap-10">
+          
+          {/* Passes items to the BlogGrid (defaults to 3 columns) */}
+          <BlogGrid items={items} columns={3} />
+          
+          {/* Tablet/Mobile Button: Hides on desktop, centers on mobile */}
+          <div className="flex w-full justify-center lg:hidden mt-4">
+            <Button 
+              as="link" 
+              href={viewAllHref} 
+              variant="outliner"
+              className="w-[240px] justify-center text-center"
+            >
+              {viewAllText}
+            </Button>
+          </div>
+          
+        </div>
+        
+      </div>
+    </section>
+  )
+}
+
+/* ---------------------------------------------------------
+   USAGE
+
+   Homepage default:
+   <BlogSection />
+
+   With real CMS data:
+   <BlogSection items={blogPostsFromCMS} />
+--------------------------------------------------------- */

@@ -1,0 +1,1318 @@
+{
+    "homePage": {
+        "heroSection": {
+            "mainHeading": "Know your rights.Protect your freedom.",
+            "subHeading": "Every path to justice begins with the right advice — let’s take that first step together.",
+            "ctaButton": "Book a free consultation"
+        },
+        "aboutSection": {
+            "title": "About",
+            "description": " With clear legal insight and swift, reliable guidance, Arshiv Legal helps you act early — while the case is still in your hands and your options are open. We believe every matter deserves attention before it turns complex or slips beyond control. Our approach is rooted in clarity, precision, and timely action, ensuring you understand every step and make confident decisions before the situation escalates.",
+            "ctaButton": "Learn more"
+        },
+        "howWeWork": {
+            "heading": "How We Work",
+            "description": "Legal guidance should be simple, transparent, and accessible — helping you understand your rights before taking any major step.",
+            "steps": [
+                {
+                    "number": 1,
+                    "title": "You Share Your Concern",
+                    "text": "Reach out with your legal issue or question. Every matter is treated with confidentiality and respect."
+                },
+                {
+                    "number": 2,
+                    "title": "Respond Personally",
+                    "text": "You’ll receive a response directly from our team — not automated. We take time to understand the facts and urgency involved."
+                },
+                {
+                    "number": 3,
+                    "title": "Analyse and Clarify",
+                    "text": "We study your situation and explain the law behind it in clear, practical terms — so you know exactly where you stand and what options exist."
+                },
+                {
+                    "number": 4,
+                    "title": "Suggest the Simplest Legal Route",
+                    "text": "If the matter can be resolved through a simple legal process, we’ll guide you through it step by step — ensuring you stay informed and legally safe."
+                },
+                {
+                    "number": 5,
+                    "title": "Connect You to the Right Counsel (If Needed)",
+                    "text": "When representation becomes necessary, we help you identify the right kind of lawyer — civil, criminal, family, corporate, or others — and, if you wish, connect you to trusted professionals."
+                },
+                {
+                    "number": 6,
+                    "title": "Stay With You (Paid Engagement)",
+                    "text": "If you continue through our platform or one of our referred lawyers, we assist with coordination, documentation, and communication until your matter reaches closure."
+                }
+            ],
+            "footerNote": "Our role is to simplify law, guide you responsibly, and ensure you reach the right legal support — without confusion, pressure, or false promises."
+        },
+        "don’tHesitate": {
+            "title": "Don’t hesitate its your right!",
+            "description": "If you’ve reached this point, you probably need answers — and that’s completely okay. Legal problems can feel heavy, but you don’t have to face them alone. You deserve guidance, clarity, and someone who truly listens before offering solutions.We understand how overwhelming it can be when rights, responsibilities, and emotions collide. That’s why we’re here — to help you understand where you stand, what the law says, and how you can move forward confidently.You’ve already taken the first step by being here. Let’s take the next one together."
+        },
+        "servicesSection": {
+            "arrow": "->",
+            "topHeading": "See how our legal services can support you.",
+            "tabs": [
+                {
+                    "label": "Public Law",
+                    "slug": "public-law"
+                },
+                {
+                    "label": "Property Law",
+                    "slug": "property-law"
+                },
+                {
+                    "label": "Criminal Law",
+                    "slug": "criminal-law"
+                },
+                {
+                    "label": "Civil Law",
+                    "slug": "civil-law"
+                },
+                {
+                    "label": "Administrative Law",
+                    "slug": "administrative-law"
+                },
+                {
+                    "label": "Constitutional Law",
+                    "slug": "constitutional-law"
+                }
+            ],
+            "civilLaw": {
+                "title": "Civil Law",
+                "image": "/Images/civil-law.webp",
+                "description": "Civil law covers disputes between individuals, families, or organisations. It includes conflicts involving money, contracts, consumer issues, reputation, workplace matters, and everyday disagreements that require legal clarification or resolution through civil procedures.",
+                "subTitle": "Below are the key civil matters this section covers:",
+                "keyMatters": [
+                    "Property Disputes",
+                    "Family Matters"
+                ]
+            },
+            "criminalLaw": {
+                "title": "Criminal Law",
+                "image": "/Images/criminal-law.webp",
+                "description": "Criminal law deals with offences that involve accusations of wrongdoing, harm, threats, or violations of public order. It includes matters related to police complaints, FIRs, fraud, violence, cyber offences, and conduct treated as criminal under law.",
+                "subTitle": "Below are the primary criminal concerns covered under this category:",
+                "keyMatters": [
+                    "Police Complaints & FIRs",
+                    "Fraud & Cheating Cases",
+                    "Cybercrime Issues",
+                    "Threats, Abuse, Violence"
+                ]
+            },
+            "administrativeLaw": {
+                "title": "Administrative Law",
+                "image": "/Images/administrative-law.webp",
+                "description": "Administrative law covers disputes and issues arising from actions, decisions, or notices issued by government departments or authorities. It includes challenges to official orders, penalties, licensing problems, and matters involving public administrative bodies.",
+                "subTitle": "Below are the administrative matters that fall under this service:",
+                "keyMatters": [
+                    "Government Notices & Orders",
+                    "Licensing & Permit Issues",
+                    "Administrative Penalties",
+                    "Public Department Disputes"
+                ]
+            },
+            "publicLaw": {
+                "title": "Public Law",
+                "image": "/Images/public-law.webp",
+                "description": "Public law addresses situations where state authorities, public officials, or government bodies affect individual rights. It includes cases involving misuse of power, unlawful administrative actions, and matters requiring accountability from public institutions.",
+                "subTitle": "Below are the core constitutional matters included under this category:",
+                "keyMatters": [
+                    "Misuse of Power by Authorities",
+                    "Unlawful Administrative Actions",
+                    "Government Accountability Cases",
+                    "Rights-Violating Public Actions"
+                ]
+            },
+            "constitutionalLaw": {
+                "title": "Constitutional Law",
+                "image": "/Images/constitutional-law.webp",
+                "description": "Constitutional law involves issues relating to fundamental rights and the legality of governmental actions. It covers challenges to government orders, enforcement of constitutional protections, and matters requiring judicial review of state decisions.",
+                "subTitle": "Below are the core constitutional matters included under this category:",
+                "keyMatters": [
+                    "Fundamental Rights Violations",
+                    "Judicial Review of State Actions",
+                    "Unconstitutional Orders",
+                    "Constitutional Protection Enforcement"
+                ]
+            },
+            "propertyLaw": {
+                "title": "Property Law",
+                "image": "/Images/property-law.webp",
+                "description": "Property law deals with rights, ownership, possession, and use of land or buildings. It includes disputes over boundaries, tenancy, transfers, inheritance, encroachment, and any conflict involving residential, commercial, or ancestral property.",
+                "subTitle": "Below are the main property-related issues included in this service:",
+                "keyMatters": [
+                    "Encroachment & Boundary Disputes",
+                    "Tenancy & Rental Issues",
+                    "Property Transfers & Sales",
+                    "Inheritance & Ancestral Property"
+                ]
+            },
+            "caseStudies": [
+                {
+                    "id": 1,
+                    "image": "/Images/case1.webp",
+                    "case": "/Images/caseStudy1.webp"
+                },
+                {
+                    "id": 2,
+                    "image": "/Images/case2.webp",
+                    "case": "/Images/caseStudy2.webp"
+                },
+                {
+                    "id": 3,
+                    "image": "/Images/case3.webp",
+                    "case": "/Images/caseStudy3.webp"
+                }
+            ]
+        },
+        "whyChooseUs": {
+            "title": "Why choose us?",
+            "points": [
+                "Our approach is built on clarity, precision, and genuine understanding. We believe that legal help should never feel distant or complicated. Every case we take is handled with professional diligence — but explained in a way that anyone can understand. Complex legal terms are simplified, processes are made transparent, and every client is kept informed at every stage.",
+                "We respond quickly, communicate directly, and ensure that no concern goes unheard. Each matter receives the attention it deserves, with complete confidentiality and a personal sense of responsibility.",
+                "Our aim is simple — to make the law understandable, accessible, and effective for those who need it most. Every effort reflects our commitment to act with integrity, deliver timely guidance, and protect the rights entrusted to us."
+            ]
+        },
+        "pricingSection": {
+            "footerNote": "⁠*All consultations are handled by qualified legal professionals. Fees vary based on complexity and time, ensuring fairness and transparency.",
+            "pricing": [
+                {
+                    "title": "Free",
+                    "star": "*",
+                    "price": "₹0 | First 10 Minutes",
+                    "details": "Talk to us about your concern and get clear, reliable legal direction at no cost.\nWe’ll help you understand where you stand and what your next legal step could be.\n\nStart with clarity. No charge, no obligation.",
+                    "buttonText": "Contact us",
+                    "variant": "free"
+                },
+                {
+                    "title": "Standard",
+                    "star": "",
+                    "price": "₹0 | Paid | Fees vary by case",
+                    "details": "A focused session for those who need more than a brief opinion — get practical legal guidance based on your facts, documents, and situation.\nPricing depends on case type, lawyer’s experience, and time required.\n\nTransparent and fairly assessed before your session.",
+                    "buttonText": "Choose",
+                    "variant": "standard"
+                },
+                {
+                    "title": "Extended",
+                    "star": "",
+                    "price": "₹499 per 30 Minutes (after first 10 mins free)",
+                    "details": "For deeper discussions or continued guidance on your matter.\nIdeal when your case requires follow-ups, document review, or legal strategy.\n\nAffordable, ongoing support — with complete transparency.",
+                    "buttonText": "Choose",
+                    "variant": "standard"
+                }
+            ]
+        },
+        "faqs": [
+            {
+                "question": "How fast can I get a consultation?",
+                "answer": "Usually the same day. For time-sensitive matters (police involvement, deadlines, property disputes, threats, financial fraud, etc.), we prioritise and try to arrange an urgent slot within hours."
+            },
+            {
+                "question": "Will I need to visit an office or is everything online?",
+                "answer": "Almost everything — consultation, document review, drafting, clarifications — is handled online. In-person meetings are arranged only when specifically required."
+            },
+            {
+                "question": "Are my messages and documents kept confidential?",
+                "answer": "Yes. All information shared is confidential and used only for advising you on your matter."
+            },
+            {
+                "question": "Is there a minimum fee or can I consult only for one specific issue?",
+                "answer": "You can consult for even a single, small, or very specific issue — there is no minimum requirement.\n\nYou will receive an initial free consultation to understand your matter.\n\nIf the issue is complex or requires detailed review, drafting, or strategic work, we will inform you of the exact charges in advance, before any paid service begins."
+            },
+            {
+                "question": "If my matter requires a court lawyer, will you arrange one?",
+                "answer": "Yes. We advise you on the type of lawyer required and can recommend advocates from our network. You may choose our suggested lawyer or hire your own — we coordinate the strategy and drafting either way."
+            }
+        ]
+    },
+    "primaryServices": {
+        "title": "Services",
+        "description": "With clear legal insight and swift, reliable guidance, Arshiv Legal helps you act early — while the case is still in your hands and your options are open. We believe every matter deserves attention before it turns complex or slips beyond control. Our approach is rooted in clarity, precision, and timely action, ensuring you understand every step and make confident decisions before the situation escalates.",
+        "faqs": [
+            {
+                "question": "I’m not sure which service I need. What should I do?",
+                "answer": "Just reach out — tell us your issue in simple words, and we’ll guide you to the right service."
+            },
+            {
+                "question": "How do I contact you or get help?",
+                "answer": "Click “Book a Call” or use the contact option below. Share a few details, and we’ll get back with the exact steps."
+            },
+            {
+                "question": "Do I need any documents before contacting you?",
+                "answer": "Not necessarily. If you have anything related to your issue (messages, notices, proofs), keep them ready — if not, we’ll tell you what’s needed."
+            },
+            {
+                "question": "Will my information stay private?",
+                "answer": "Yes. Everything you share with us stays confidential and protected."
+            }
+        ]
+    },
+    "about": {
+        "title": "About",
+        "description": "Arshiv Legal provides structured legal information in a format that is easy to understand and suitable for preliminary assessment.",
+        "aboutSection": {
+            "mission": {
+                "title": "Our Mission",
+                "description": "To present legal information in a simplified and accessible format, enabling individuals to understand the essential elements of their situation and the general procedural framework that may apply."
+            },
+            "whatWeDo": {
+                "title": "What We Do",
+                "description": "Arshiv Legal offers well-organised legal information, including:",
+                "points": [
+                    "Simplified explanations of legal concepts and procedures",
+                    "Step-based outlines for commonly encountered legal situations",
+                    "Scenario-based insights that reflect practical legal outcomes",
+                    "Direct guidance on preliminary steps to consider",
+                    "Information designed to support responsible decision-making at the initial stage"
+                ],
+                "footerNote": "Each resource is developed with a focus on accuracy, structure, and practical relevance."
+            },
+            "howWeHelp": {
+                "title": "How We Help",
+                "description": "Our platform assists users in understanding:",
+                "points": [
+                    "The nature and implications of the issue they are dealing with",
+                    "Applicable rights, obligations, and potential risks",
+                    "Procedural routes commonly followed in similar situations",
+                    "Suitable first responses before engaging in any formal process"
+                ],
+                "footerNote": "This enables individuals to approach their circumstances with a foundational understanding of the legal framework involved."
+            },
+            "whyArshivLegal": {
+                "title": "Why Arshiv Legal",
+                "description": "Legal processes often appear technical and difficult to interpret. Arshiv Legal bridges this gap by presenting legally aligned information in an organised, non-technical manner. This helps individuals review their position and avoid premature or inappropriate actions."
+            },
+            "ourAssurance": {
+                "title": "Our Assurance",
+                "points": [
+                    "Information presented in plain and accurate terms",
+                    "No promotional language or exaggerated claims",
+                    "No unnecessary jargon or ambiguity",
+                    "Content designed strictly for preliminary understanding, not legal representation"
+                ],
+                "footerNote": "Arshiv Legal functions as a structured legal-information platform aimed at supporting informed and responsible initial decision-making."
+            }
+        }
+    },
+    "whatShouldIDoNow": {
+        "title": "What Should I Do Now?",
+        "sections": [
+            {
+                "heading": "ANYTHING YOU SAY OR SIGN CAN BE USED AGAINST YOU.",
+                "paragraphs": [
+                    "Whether it’s a reply to a notice, a statement at a police station, or a document someone wants you to sign — your safest move is to understand its legal impact first.",
+                    "— A single line, a single signature, or even a quick emotional reaction can completely change your position in a case.",
+                    "— Speaking without clarity can weaken your defence. Signing without reading can bind you to terms you never intended.",
+                    "— Reacting emotionally can create problems that are difficult to undo.",
+                    "Take a moment.",
+                    "Get clarity.",
+                    "Then act."
+                ]
+            },
+            {
+                "image": "/Images/library-01.webp",
+                "imageAlt": "image"
+            },
+            {
+                "heading": "YOUR FIRST SAFE STEP",
+                "bullets": [
+                    "Take a breath. Don’t rush.",
+                    "Don’t react, don’t explain, and don’t sign anything yet.",
+                    "Keep everything with you and talk to someone who understands the law before you say a single word.",
+                    "This one pause can protect you more than you think."
+                ]
+            }
+        ],
+        "faqs": [
+            {
+                "question": "I just received a notice or complaint. What should I do first?",
+                "answer": "Don’t reply immediately. Share it with a legal professional first so you don’t make a mistake that can be used against you."
+            },
+            {
+                "question": "Do I really need a lawyer right now?",
+                "answer": "Maybe, maybe not. It depends on your situation — a quick conversation can tell you exactly what you need."
+            },
+            {
+                "question": "Can I talk to the other party directly and sort it out?",
+                "answer": "Not before understanding the legal risk. Even one wrong message or call can weaken your position."
+            },
+            {
+                "question": "What if I don’t understand the legal terms in my documents?",
+                "answer": "That’s normal. We’ll break everything down for you in simple language so you know what’s actually happening."
+            }
+        ]
+    },
+    "subServices": {
+        "propertyDisputes": {
+            "title": "Property Disputes",
+            "description": "Property disputes arise when ownership, possession, or boundary rights are unclear or challenged. This service helps you confirm legal ownership, resolve conflicts, and act against illegal possession or incorrect documentation.",
+            "whatThisServiceCovers": {
+                "heading": "What This Service Covers",
+                "cards": [
+                    {
+                        "title": "Land Ownership & Possession Disputes",
+                        "subtitle": "Conflicts where more than one person claims the same property."
+                    },
+                    {
+                        "title": "Family Partition Issues",
+                        "subtitle": "Disputes over dividing family or ancestral property."
+                    },
+                    {
+                        "title": "Boundary & Measurement Conflicts",
+                        "subtitle": "Problems regarding land size or boundary markings."
+                    },
+                    {
+                        "title": "Illegal Possession / Encroachment",
+                        "subtitle": "When someone occupies property without permission."
+                    },
+                    {
+                        "title": "Builder Delay or Fraud",
+                        "subtitle": "Issues involving delayed possession or false commitments."
+                    },
+                    {
+                        "title": "Will / Inheritance Disputes",
+                        "subtitle": "Confusion over rightful heirs or property distribution."
+                    },
+                    {
+                        "title": "Registration, Transfer & Title Problems",
+                        "subtitle": "Errors or mismatches in property documents."
+                    }
+                ]
+            },
+            "faqs": [
+                {
+                    "question": "How do I know if I legally own the property?",
+                    "answer": "By checking your sale deed, land records, and past ownership history — we verify all of it for you."
+                },
+                {
+                    "question": "Can a property dispute be solved without going to court?",
+                    "answer": "Yes, many cases are resolved through notices, negotiation, or family settlements."
+                },
+                {
+                    "question": "How long does a property case usually take?",
+                    "answer": "It depends on complexity, but we guide you toward the fastest possible route."
+                },
+                {
+                    "question": "What if someone illegally occupies my property?",
+                    "answer": "You can take legal action for eviction, removal, and recovery of possession."
+                }
+            ]
+        },
+        "familyMatters": {
+            "title": "Family Matters",
+            "description": "Family matters address legal issues within relationships such as separation, financial support, domestic disputes, and child-related decisions.",
+            "whatThisServiceCovers": {
+                "heading": "What This Service Covers",
+                "cards": [
+                    {
+                        "title": "Divorce Consultation",
+                        "subtitle": "Legal steps and guidance for separating couples."
+                    },
+                    {
+                        "title": "Maintenance & Alimony",
+                        "subtitle": "Financial support claims after separation."
+                    },
+                    {
+                        "title": "Domestic Violence Protection",
+                        "subtitle": "Help for individuals facing abuse or threats."
+                    },
+                    {
+                        "title": "Child Custody & Guardianship",
+                        "subtitle": "Decisions about child care after separation."
+                    },
+                    {
+                        "title": "Family Settlements",
+                        "subtitle": "Written agreements to resolve disputes peacefully."
+                    },
+                    {
+                        "title": "Dowry Harassment Matters",
+                        "subtitle": "Cases involving dowry demands or false allegations."
+                    },
+                    {
+                        "title": "Marriage Documentation / Registration",
+                        "subtitle": "Assistance with legal paperwork."
+                    }
+                ]
+            },
+            "faqs": [
+                {
+                    "question": "Do I need a lawyer to file for divorce?",
+                    "answer": "Not always, but legal guidance ensures your rights are protected regarding property, maintenance, and custody."
+                },
+                {
+                    "question": "How is child custody decided?",
+                    "answer": "Based on the child’s welfare, living conditions, and parental stability."
+                },
+                {
+                    "question": "Can maintenance be claimed even if I'm not divorced?",
+                    "answer": "Yes, you can claim support during separation."
+                },
+                {
+                    "question": "Are family matters kept confidential?",
+                    "answer": "Yes, complete privacy is maintained."
+                }
+            ]
+        },
+        "bail": {
+            "title": "Bail & Anticipatory Bail",
+            "description": "Bail services help individuals prevent arrest or secure release quickly. This service ensures timely filing of bail applications and guides you through urgent criminal procedures.",
+            "whatThisServiceCovers": {
+                "heading": "What This Service Covers",
+                "cards": [
+                    {
+                        "title": "Anticipatory Bail",
+                        "subtitle": "Protection when you fear arrest."
+                    },
+                    {
+                        "title": "Regular Bail",
+                        "subtitle": "Assistance for securing release from custody."
+                    },
+                    {
+                        "title": "Bail Documentation",
+                        "subtitle": "Preparation of required papers and grounds."
+                    },
+                    {
+                        "title": "Court Representation",
+                        "subtitle": "Support during bail hearings."
+                    },
+                    {
+                        "title": "Urgent Legal Assistance",
+                        "subtitle": "Immediate help in time-sensitive situations."
+                    }
+                ]
+            },
+            "faqs": [
+                {
+                    "question": "When should I apply for anticipatory bail?",
+                    "answer": "When you believe someone may file a complaint or FIR against you."
+                },
+                {
+                    "question": "How fast can bail be arranged?",
+                    "answer": "Often within the same day, depending on court timing."
+                },
+                {
+                    "question": "Will getting bail mean I'm proven guilty?",
+                    "answer": "No — bail only ensures you remain free during the investigation."
+                }
+            ]
+        },
+        "cheatingHarassment": {
+            "title": "Cheating, Threats & Harassment Cases",
+            "description": "These matters involve complaints or allegations of cheating, threats, abuse, or harassment. This service helps you file strong complaints or defend against false accusations.",
+            "whatThisServiceCovers": {
+                "heading": "What This Service Covers",
+                "cards": [
+                    {
+                        "title": "Cheating / Fraud Cases",
+                        "subtitle": "Disputes involving money, trust, or breach of promise."
+                    },
+                    {
+                        "title": "Criminal Intimidation / Threats",
+                        "subtitle": "Complaints related to verbal or written threats."
+                    },
+                    {
+                        "title": "Harassment Cases",
+                        "subtitle": "Situations involving repeated disturbance or abuse."
+                    },
+                    {
+                        "title": "False Allegation Defence",
+                        "subtitle": "Support if someone files a misleading complaint."
+                    },
+                    {
+                        "title": "Settlement & Mediation",
+                        "subtitle": "When issues can be resolved peacefully."
+                    }
+                ]
+            },
+            "faqs": [
+                {
+                    "question": "Should I file an FIR or a police complaint first?",
+                    "answer": "We help you decide based on urgency and the strength of your case."
+                },
+                {
+                    "question": "What if the allegations against me are false?",
+                    "answer": "You can defend yourself legally with evidence and proper replies."
+                },
+                {
+                    "question": "Can harassment cases be resolved without going to court?",
+                    "answer": "Sometimes yes, if both parties agree."
+                }
+            ]
+        },
+        "documentsLicensing": {
+            "title": "Government Document & Licensing Issues",
+            "description": "Administrative matters arise when government procedures, documents, or licenses face delays or complications. This service helps you correct, update, or obtain necessary approvals smoothly.",
+            "whatThisServiceCovers": {
+                "heading": "What This Service Covers",
+                "cards": [
+                    {
+                        "title": "Licensing & Permit Issues",
+                        "subtitle": "Help with obtaining or renewing official licenses."
+                    },
+                    {
+                        "title": "Document Correction Requests",
+                        "subtitle": "Fixing errors in government-issued documents."
+                    },
+                    {
+                        "title": "Application Support",
+                        "subtitle": "Guidance for submissions and required paperwork."
+                    },
+                    {
+                        "title": "Status Follow-up",
+                        "subtitle": "Assistance with delayed or pending applications."
+                    },
+                    {
+                        "title": "Compliance Queries",
+                        "subtitle": "Clarification of rules and requirements."
+                    }
+                ]
+            },
+            "faqs": [
+                {
+                    "question": "How do I correct errors in government documents?",
+                    "answer": "Most corrections need applications and supporting proofs — we guide and prepare everything."
+                },
+                {
+                    "question": "Why is my document or license delayed?",
+                    "answer": "Usually due to missing documents or pending verification."
+                },
+                {
+                    "question": "Can you speed up a stuck application?",
+                    "answer": "We help follow up with departments and fix issues blocking the process."
+                }
+            ]
+        },
+        "challengeOrders": {
+            "title": "Challenges Against Government Orders",
+            "description": "This service helps individuals and businesses challenge unfair, incorrect, or excessive government orders, notices, or penalties through proper legal channels.",
+            "whatThisServiceCovers": {
+                "heading": "What This Service Covers",
+                "cards": [
+                    {
+                        "title": "Challenging Penalties",
+                        "subtitle": "When unfair fines or actions are issued."
+                    },
+                    {
+                        "title": "Replying to Government Notices",
+                        "subtitle": "Proper responses to avoid escalation."
+                    },
+                    {
+                        "title": "Appeals Against Decisions",
+                        "subtitle": "Legal steps to overturn incorrect orders."
+                    },
+                    {
+                        "title": "Compliance Clarification",
+                        "subtitle": "Support in understanding requirements."
+                    },
+                    {
+                        "title": "Representation Before Authorities",
+                        "subtitle": "Assistance in hearings or meetings."
+                    }
+                ]
+            },
+            "faqs": [
+                {
+                    "question": "Can I challenge any government notice?",
+                    "answer": "Yes, if it is unfair, incorrect, or issued without proper grounds."
+                },
+                {
+                    "question": "What if I miss the deadline to reply?",
+                    "answer": "It can cause penalties — always respond quickly; we prepare replies on time."
+                },
+                {
+                    "question": "Do I need to go to court for every challenge?",
+                    "answer": "Not always; some issues get resolved by filing objections or appeals."
+                }
+            ]
+        },
+        "publicMatters": {
+            "title": "Public Interest Related Matters",
+            "description": "Public law matters involve issues affecting communities, public rights, or social welfare. This service helps identify suitable legal remedies for concerns impacting the broader public.",
+            "whatThisServiceCovers": {
+                "heading": "What This Service Covers",
+                "cards": [
+                    {
+                        "title": "Public Safety Concerns",
+                        "subtitle": "Matters affecting large groups or communities."
+                    },
+                    {
+                        "title": "Local Governance Issues",
+                        "subtitle": "Disputes involving public services or civic authorities."
+                    },
+                    {
+                        "title": "Policy-Related Complaints",
+                        "subtitle": "When administrative decisions harm public interest."
+                    },
+                    {
+                        "title": "Public Welfare Matters",
+                        "subtitle": "Issues related to environment, health, or misuse of resources."
+                    },
+                    {
+                        "title": "Guidance on PIL Feasibility",
+                        "subtitle": "Help understanding if a matter qualifies for PIL."
+                    }
+                ]
+            },
+            "faqs": [
+                {
+                    "question": "How do I know if my issue qualifies as public interest?",
+                    "answer": "If it affects community rights or public welfare, it may qualify."
+                },
+                {
+                    "question": "Is filing a PIL expensive or complicated?",
+                    "answer": "It depends — we guide you on feasibility before taking any step."
+                },
+                {
+                    "question": "Can an individual file a public interest matter?",
+                    "answer": "Yes, if the issue affects society."
+                }
+            ]
+        },
+        "rightsViolation": {
+            "title": "Rights Violation Complaints",
+            "description": "This service addresses situations where authorities or individuals violate someone’s rights, dignity, or lawful freedoms.",
+            "whatThisServiceCovers": {
+                "heading": "What This Service Covers",
+                "cards": [
+                    {
+                        "title": "Police Misconduct Complaints",
+                        "subtitle": "When officers misuse power."
+                    },
+                    {
+                        "title": "Authority Misbehaviour",
+                        "subtitle": "Cases involving officials acting illegally."
+                    },
+                    {
+                        "title": "Access to Services Issues",
+                        "subtitle": "When basic public rights are denied."
+                    },
+                    {
+                        "title": "Unfair Treatment Cases",
+                        "subtitle": "Actions violating individual dignity."
+                    },
+                    {
+                        "title": "Support in Filing Complaints",
+                        "subtitle": "Help with applications, evidence, and process."
+                    }
+                ]
+            },
+            "faqs": [
+                {
+                    "question": "What should I do if a police officer misuses their power?",
+                    "answer": "You can file a complaint with proper evidence; we help prepare it."
+                },
+                {
+                    "question": "Are rights violation complaints taken seriously?",
+                    "answer": "Yes, especially when supported by documents or witnesses."
+                },
+                {
+                    "question": "Can I remain anonymous while complaining?",
+                    "answer": "Depends on the department and nature of complaint."
+                }
+            ]
+        },
+        "fundamentalRights": {
+            "title": "Fundamental Rights Protection",
+            "description": "This service focuses on safeguarding your rights under the Constitution, especially when authorities act unfairly or restrict your lawful freedoms.",
+            "whatThisServiceCovers": {
+                "heading": "What This Service Covers",
+                "cards": [
+                    {
+                        "title": "Equality & Non-Discrimination Issues",
+                        "subtitle": "Cases involving unfair treatment."
+                    },
+                    {
+                        "title": "Right to Liberty Matters",
+                        "subtitle": "Concerns related to personal freedom."
+                    },
+                    {
+                        "title": "Privacy Violations",
+                        "subtitle": "Interference with personal information."
+                    },
+                    {
+                        "title": "Freedom of Movement / Expression Issues",
+                        "subtitle": "Restrictions without lawful grounds."
+                    },
+                    {
+                        "title": "Guidance on Constitutional Remedies",
+                        "subtitle": "Help choosing the correct legal route."
+                    }
+                ]
+            },
+            "faqs": [
+                {
+                    "question": "How do I know if my fundamental right is violated?",
+                    "answer": "If an authority restricts your liberty, privacy, equality, or freedom without reason."
+                },
+                {
+                    "question": "Do all rights violations need a writ?",
+                    "answer": "Not always — some issues resolve with complaints first."
+                }
+            ]
+        },
+        "writPetitions": {
+            "title": "Writ Petitions",
+            "description": "Writ petitions are used to challenge illegal actions, prevent misuse of power, or demand government authorities to act lawfully.",
+            "whatThisServiceCovers": {
+                "heading": "What This Service Covers",
+                "cards": [
+                    {
+                        "title": "Habeas Corpus",
+                        "subtitle": "When someone is illegally detained."
+                    },
+                    {
+                        "title": "Mandamus",
+                        "subtitle": "When authorities refuse their duty."
+                    },
+                    {
+                        "title": "Certiorari",
+                        "subtitle": "To cancel unlawful orders."
+                    },
+                    {
+                        "title": "Prohibition",
+                        "subtitle": "Stop lower bodies from exceeding powers."
+                    },
+                    {
+                        "title": "Quo Warranto",
+                        "subtitle": "Question someone's right to hold office."
+                    }
+                ]
+            },
+            "faqs": [
+                {
+                    "question": "Do I need to go directly to the High Court for a writ?",
+                    "answer": "Yes, writs are filed in High Court or Supreme Court only."
+                },
+                {
+                    "question": "How long does a writ petition take?",
+                    "answer": "Depends on urgency; some are heard immediately."
+                },
+                {
+                    "question": "Which writ should I file?",
+                    "answer": "We suggest the correct one based on your situation."
+                }
+            ]
+        },
+        "landVerification": {
+            "title": "Land Ownership & Title Verification",
+            "description": "This service verifies whether a land or property is legally safe to buy, sell, or transfer.",
+            "whatThisServiceCovers": {
+                "heading": "What This Service Covers",
+                "cards": [
+                    {
+                        "title": "Document Verification",
+                        "subtitle": "Checking sale deeds, RTC, and other papers."
+                    },
+                    {
+                        "title": "Title Check",
+                        "subtitle": "Ensuring clear and undisputed ownership."
+                    },
+                    {
+                        "title": "Past Record Examination",
+                        "subtitle": "Identifying prior disputes/issues."
+                    },
+                    {
+                        "title": "Encumbrance Check",
+                        "subtitle": "Confirming no loans or liabilities."
+                    },
+                    {
+                        "title": "Legal Advisory Before Purchase",
+                        "subtitle": "Avoid risky properties."
+                    }
+                ]
+            },
+            "faqs": [
+                {
+                    "question": "Why should I verify a property before buying it?",
+                    "answer": "To avoid fraud, hidden disputes, or unclear ownership."
+                },
+                {
+                    "question": "How long does title verification take?",
+                    "answer": "Usually 1–3 days depending on records."
+                },
+                {
+                    "question": "Is online property information enough?",
+                    "answer": "No — many critical details are only found in physical records."
+                }
+            ]
+        },
+        "propertyTransfer": {
+            "title": "Property Transfer & Registration",
+            "description": "Property transfer services ensure safe and legal completion of buying, selling, or gifting property.",
+            "whatThisServiceCovers": {
+                "heading": "What This Service Covers",
+                "cards": [
+                    {
+                        "title": "Sale / Purchase Documentation",
+                        "subtitle": "Drafting and reviewing agreements."
+                    },
+                    {
+                        "title": "Gift & Transfer Deeds",
+                        "subtitle": "Preparing deeds for family transfers."
+                    },
+                    {
+                        "title": "Registration Support",
+                        "subtitle": "Completing processes at sub-registrar office."
+                    },
+                    {
+                        "title": "Stamp Duty Guidance",
+                        "subtitle": "Correct fee calculation assistance."
+                    },
+                    {
+                        "title": "Name Transfer Assistance",
+                        "subtitle": "Updating records after purchase or inheritance."
+                    }
+                ]
+            },
+            "faqs": [
+                {
+                    "question": "What documents are needed for property registration?",
+                    "answer": "Sale deed, ID proofs, photographs, and payment details."
+                },
+                {
+                    "question": "Can I register property in someone else's name?",
+                    "answer": "Yes, with proper documentation."
+                },
+                {
+                    "question": "What happens if the registration is delayed?",
+                    "answer": "Stamp duty may increase and the transfer becomes legally incomplete."
+                }
+            ]
+        }
+    },
+    "ourTeam": {
+        "pageTitle": "Our Team",
+        "description": "A Professional Legal Team Focused on Clarity and Structured Guidance",
+        "section1": {
+            "heading": "A Professional Legal Team Focused on Clarity and Structured Guidance",
+            "content": "Arshiv Legal operates with a clear, disciplined approach to every matter. Our work combines careful legal assessment, responsible interpretation of statutes, and well-prepared procedural steps so clients always know where they stand and what comes next. The practice is led from the front by a dedicated legal professional who interacts directly with clients, supported by a streamlined internal system that keeps every case organised, researched, and ready for action when required."
+        },
+        "teamMember": [
+            {
+                "dpImage": "/Images/aryan.png",
+                "heading": "Aryan Pandey — Principal Legal Professional",
+                "content": "As the primary face of Arshiv Legal, he oversees the evaluation of matters, examines factual positions, and interprets the legal questions involved with precision. His approach is grounded in structured reasoning and clarity, ensuring clients receive guidance that is both practical and aligned with the law. He works closely with the internal workflow that manages background preparation, document accuracy, procedural checks, and communication with external advocates whenever deeper intervention is needed."
+            }
+        ],
+        "section3": {
+            "heading": "How the Practice Functions",
+            "content": "While clients interact primarily with the principal professional, the overall system is designed to function like a coordinated legal setup. Background work supports the front-end guidance, ensuring that matters are reviewed properly, facts are verified, and procedural steps are prepared without rush or ambiguity. This allows Arshiv Legal to maintain both accuracy and efficiency, even in time-sensitive situations."
+        },
+        "section4": {
+            "heading": "Resolved Cases & Experiences",
+            "content": "*An outline of legal matters we have handled, supported by client feedback."
+        }
+    },
+    "contactSection": {
+        "title": "Contact us",
+        "subtitle": "Get experienced legal advice now",
+        "description": "If you or a loved one has been injured in an accident or are dealing with an insurance dispute, our experienced attorneys are here to help.",
+        "address": {
+            "title": "Address",
+            "line1": "Hanuman Vihar",
+            "line2": "Naubasta, Kanpur",
+            "line3": "U.P",
+            "phoneTitle": "Phone",
+            "phoneNumber": "+91 8853632011"
+        },
+        "form": {
+            "title": "Contact Form",
+            "fields": {
+                "name": "Name",
+                "email": "Email",
+                "phone": "Phone",
+                "query": "Case Query"
+            },
+            "privacyText": "We value your privacy. Read our Privacy Policy to learn how we handle your data.",
+            "privacyLink": "Read our Privacy Policy",
+            "submitText": "Submit"
+        },
+        "map": {
+            "title": "Our Location",
+            "embedUrl": "https://www.google.com/maps?q=26.40484,80.31194&z=15&output=embed"
+        },
+        "faqs": [
+            {
+                "question": "What details should I share about my legal issue during the first contact?",
+                "answer": "Only share essential facts—timeline, parties involved, and current status. You don’t need to send documents unless specifically requested after review."
+            },
+            {
+                "question": "Is my communication protected under lawyer–client confidentiality?",
+                "answer": "Yes. All information you share, even before onboarding, is treated as confidential legal communication."
+            },
+            {
+                "question": "What if I need urgent assistance due to police involvement?",
+                "answer": "Mention “URGENT – POLICE MATTER” in your message. We prioritise such cases and guide you on immediate legal steps."
+            },
+            {
+                "question": "Can I book a consultation before deciding to proceed legally?",
+                "answer": "Yes. You may request a consultation to get clarity on the law, procedure, timeline, and expected approach before taking any major legal step."
+            }
+        ]
+    },
+    "privacyPolicy": {
+        "title": "Privacy Policy",
+        "lastUpdated": "Nov 2025",
+        "Note": {
+            "link": "www.arshivlegal.com",
+            "name": " (“Arshiv Legal”)."
+        },
+        "introBlock": [
+            "At Arshiv Legal (“we”, “our”, or “us”), we respect your privacy and value your trust. This Privacy Policy explains how we collect, use, and protect your information when you visit our website ",
+            "By using or accessing this Website, you acknowledge and agree to the terms of this Privacy Policy. If you do not agree, please refrain from using the Website."
+        ],
+        "notice": "Important Note: Arshiv Legal is an informational firm — not a law firm which represents clients. All content provided here is meant for general understanding and educational purposes only. It should not be used directly for any legal action, case, or proceeding without consulting a qualified professional.",
+        "sections": [
+            {
+                "number": "1",
+                "heading": "Introduction",
+                "paragraphs": [
+                    "This Privacy Policy outlines how we handle your personal and non-personal information.",
+                    "We are committed to protecting user data while maintaining transparency in how we operate.",
+                    "Please understand that:"
+                ],
+                "bullets": [
+                    "Any information, articles, or advice shared on this Website are simplified explanations of legal concepts, not professional legal advice.",
+                    "Legal rulings, interpretations, and regulations may vary depending on the jurisdiction and situation.",
+                    "Do not rely on or use any information from this Website as a direct legal reference or substitute for formal legal consultation.",
+                    "Visiting or communicating with Arshiv Legal does not create an attorney–client relationship."
+                ]
+            },
+            {
+                "number": "2",
+                "heading": "Information We Collect",
+                "paragraphs": [
+                    "We collect information to improve our services and respond to your queries responsibly."
+                ],
+                "subsections": [
+                    {
+                        "title": "a. Personal Information Provided by You",
+                        "Note": "Note:",
+                        "paragraphs": [
+                            "We may collect your name, email address, contact number, and other details voluntarily submitted through forms, consultations, or communications."
+                        ],
+                        "conclusion": [
+                            " Do not share any confidential case documents, sensitive facts, or private information unless explicitly requested for an advisory discussion. We are not responsible for any voluntary disclosure made by you through our Website."
+                        ]
+                    },
+                    {
+                        "title": "b. Automatically Collected Data",
+                        "paragraphs": [
+                            "We automatically collect technical and analytical data including:"
+                        ],
+                        "bullets": [
+                            "IP address, browser type, device type, and operating system",
+                            "Pages visited, duration, and referral sources"
+                        ],
+                        "lower": "This helps us analyze performance and enhance user experience."
+                    },
+                    {
+                        "title": "c. Cookies and Tracking Technologies",
+                        "paragraphs": [
+                            "Cookies are used to store user preferences, analyze website usage, and improve content.",
+                            "You may disable cookies in your browser, though some site functions may be limited."
+                        ]
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "heading": "Purpose of Data Collection",
+                "paragraphs": [
+                    "We process your information only to:"
+                ],
+                "bullets": [
+                    "Respond to inquiries and provide general information",
+                    "Improve our content, services, and security",
+                    "Fulfill administrative, technical, or legal requirements",
+                    "Send updates or educational legal content (with your consent)"
+                ],
+                "conclusion": [
+                    "We do not use, sell, or misuse your data for commercial gain."
+                ],
+                "lower": [
+                    "All data collected serves communication, security, and informational purposes only."
+                ]
+            },
+            {
+                "number": "4",
+                "heading": "No Legal Guarantee or Attorney–Client Relationship",
+                "paragraphs": [
+                    "All content, communication, and materials on this Website are provided for general understanding in simple language. Nothing on this Website should be interpreted as a guarantee, warranty, or promise regarding any legal matter or outcome. No attorney–client relationship is formed by viewing, commenting, or contacting us through this Website.",
+                    "Do not use the content provided here directly for legal filings, court cases, or decision-making. Laws and regulations may differ by state, jurisdiction, or case context, and simplified content here may not reflect recent amendments or localized variations."
+                ],
+                "conclusion": [
+                    "Arshiv Legal shall not be held responsible for any loss, damage, or legal consequence arising from reliance on any information shared here."
+                ]
+            },
+            {
+                "number": "5",
+                "heading": "Legal Basis for Processing Data",
+                "paragraphs": [
+                    "We collect and process personal data based on:"
+                ],
+                "bullets": [
+                    "Consent – When you voluntarily provide your information",
+                    "Legitimate interest – To operate and improve the Website",
+                    "Legal obligation – When required by applicable law or court authority"
+                ]
+            },
+            {
+                "number": "6",
+                "heading": "Data Security",
+                "paragraphs": [
+                    "We employ reasonable administrative, technical, and physical safeguards to protect your personal information. These include encryption, secure storage, and limited access to authorized personnel.",
+                    "However, no online system is completely secure. We cannot guarantee absolute data protection against unauthorized access, alteration, or misuse."
+                ]
+            },
+            {
+                "number": "7",
+                "heading": "Data Retention",
+                "paragraphs": [
+                    "Your data is retained only as long as necessary to fulfill the purposes mentioned above or as required by law.",
+                    "Once no longer needed, it will be securely deleted.",
+                    "Users may request deletion of their data at any time by contacting us directly. However, we are not liable for any technical delay or third-party retention beyond our control."
+                ]
+            },
+            {
+                "number": "8",
+                "heading": "Data Sharing and Disclosure",
+                "paragraphs": [
+                    "We may share limited information only with trusted service providers who assist in hosting, analytics, or communication — all under confidentiality agreements."
+                ],
+                "bullets": [
+                    "We may also disclose data:",
+                    [
+                        "When required by law or court order",
+                        "To prevent fraud or harm",
+                        "To maintain website security"
+                    ]
+                ],
+                "lower": [
+                    "We do not sell or trade user information.",
+                    "Arshiv Legal assumes no liability for data processed by external services such as hosting providers, analytics tools, or communication APIs."
+                ]
+            },
+            {
+                "number": "9",
+                "heading": "Third-Party Websites and External Links",
+                "paragraphs": [
+                    "Our Website may contain external links for informational purposes. Arshiv Legal does not own, control, or manage any third-party website linked here.",
+                    "We are not responsible for their content, practices, or data protection methods. Visiting external links is entirely at your own risk.",
+                    "Please review each third-party's privacy policy before sharing your information."
+                ]
+            },
+            {
+                "number": "10",
+                "heading": "User Rights",
+                "paragraphs": [
+                    "Depending on your region, you may request:"
+                ],
+                "bullets": [
+                    "Access to your personal data",
+                    "Correction or deletion of your data",
+                    "Withdrawal of consent",
+                    "Restriction or objection to processing"
+                ],
+                "lower": [
+                    "We will process such requests within a reasonable time.",
+                    "However, we are not liable for delays or restrictions caused by technical or third-party dependencies."
+                ]
+            },
+            {
+                "number": "11",
+                "heading": "Cookies and Tracking",
+                "paragraphs": [
+                    "Cookies help us optimize website performance and personalize content.",
+                    "You can manage or delete cookies via browser settings.",
+                    "Disabling cookies may limit access to certain features."
+                ]
+            },
+            {
+                "number": "12",
+                "heading": "Children’s Privacy",
+                "bullets": [
+                    "This Website is intended for users aged 18 and above.",
+                    "We do not knowingly collect personal data from minors."
+                ],
+                "lower": [
+                    "If you believe a minor has submitted information, please notify us for prompt deletion.",
+                    "We disclaim responsibility for unauthorized use by minors."
+                ]
+            },
+            {
+                "number": "13",
+                "heading": "International Data Transfers (If Applicable)",
+                "paragraphs": [
+                    "If your information is transferred or stored outside your country, we ensure reasonable safeguards are in place.",
+                    "However, by using this Website, you acknowledge that data may be transferred internationally, and we are not liable for jurisdictional variations in data laws."
+                ]
+            },
+            {
+                "number": "14",
+                "heading": "Limitation of Liability",
+                "paragraphs": [
+                    "To the fullest extent permitted by law:"
+                ],
+                "bullets": [
+                    "Arshiv Legal shall not be held responsible or liable for any damages, claims, or losses arising from the use, misuse, or interpretation of information provided here.",
+                    "We make no guarantees or assurances regarding the accuracy, completeness, or legal applicability of the information.",
+                    "All content is for educational purposes and simplified legal awareness only."
+                ],
+                "lower": [
+                    "Users are strongly advised to seek professional legal counsel before acting upon any information derived from this Website."
+                ]
+            },
+            {
+                "number": "15",
+                "heading": "Policy Updates",
+                "bullets": [
+                    "We may revise or update this Privacy Policy from time to time.",
+                    "Updates will be reflected by the “Last Updated” date above."
+                ],
+                "lower": [
+                    "Continued use of this Website signifies acceptance of the revised policy. Users are encouraged to review this page periodically."
+                ]
+            },
+            {
+                "number": "16",
+                "heading": "Contact Information",
+                "paragraphs": [
+                    "For any privacy-related concerns, questions, or requests, please contact us:"
+                ],
+                "colored": [
+                    "arshivlegal@gmail.com",
+                    "www.arshivlegal.com",
+                    "[Insert Office Address, optional]"
+                ],
+                "lower": [
+                    "We will do our best to address all genuine concerns promptly and transparently."
+                ]
+            }
+        ]
+    },
+    "termsOfUse": {
+        "title": "Terms of use",
+        "effectiveDate": "November 2025",
+        "website": "www.arshivlegal.com",
+        "entity": "Arshiv Legal",
+        "sections": [
+            {
+                "title": "1. Acceptance of Terms",
+                "content": [
+                    "By accessing or using this website (hereinafter referred to as “the Site”), you acknowledge that you have read, understood, and agree to be bound by these Terms of use (\"Terms\").",
+                    "If you do not consent to these Terms, you are advised to discontinue use immediately.",
+                    "Arshiv Legal reserves the absolute right to revise, amend, or replace any part of these Terms at its sole discretion. Continued use of the Site shall constitute acceptance of such revisions."
+                ]
+            },
+            {
+                "title": "2. Purpose and Scope of Use",
+                "placeholder": "Privacy Policy",
+                "link": "/privacy-policy",
+                "part1": "For all data protection, communication, and consent-related provisions, please refer to our ",
+                "part2": ", which forms an integral part of these Terms.",
+                "content": [
+                    "The Site and all content made available herein are intended solely for general informational and educational purposes.",
+                    "Nothing contained on this Site shall be construed as formal legal advice, legal opinion, or the creation of an attorney–client relationship.",
+                    "The content is presented in simplified language to aid understanding of legal topics and should not be relied upon for decision-making in specific matters."
+                ]
+            },
+            {
+                "title": "3. Intellectual Property",
+                "content": [
+                    "Unless otherwise expressly stated, all intellectual property rights, including but not limited to text, graphics, design, logos, and media content appearing on this Site, are the sole and exclusive property of Arshiv Legal.",
+                    "No part of the Site may be copied, reproduced, modified, republished, distributed, or used in any form without prior written permission.",
+                    "Permitted use is strictly limited to personal, non-commercial purposes, provided that original context and credit to Arshiv Legal are maintained."
+                ]
+            },
+            {
+                "title": "4. User Obligations",
+                "content": [
+                    "By accessing or interacting with the Site, you hereby agree to:",
+                    [
+                        "Use the Site in a lawful and responsible manner.",
+                        "Refrain from posting, transmitting, or uploading any unlawful, defamatory, or infringing content.",
+                        "Avoid attempting to disrupt, interfere with, or gain unauthorized access to any part of the Site or its servers."
+                    ],
+                    "Arshiv Legal reserves the right to restrict access or initiate legal action against any activity deemed harmful, misleading, or detrimental to its interests or reputation."
+                ]
+            },
+            {
+                "title": "5. Limitation of Liability",
+                "content": [
+                    "The Site and all content are provided on an “as-is” and “as-available” basis.",
+                    "While reasonable efforts are made to maintain accuracy and reliability, Arshiv Legal makes no warranties or representations, express or implied, as to the completeness, accuracy, or correctness of the information provided herein.",
+                    "To the fullest extent permitted by applicable law, Arshiv Legal and its affiliates shall not be liable for any loss, damage, or consequence arising from your use or reliance upon the Site, whether direct, indirect, incidental, or consequential."
+                ]
+            },
+            {
+                "title": "6. Third-Party Links",
+                "content": [
+                    "This Site may contain references or hyperlinks to external websites or resources for convenience and informational purposes.",
+                    "Arshiv Legal does not endorse, control, or assume responsibility for the content, policies, or practices of any such third-party websites.",
+                    "Users are advised to review the respective terms and privacy policies of those external sources before interacting with them."
+                ]
+            },
+            {
+                "title": "7. Amendments and Termination",
+                "content": [
+                    "Arshiv Legal reserves the right to modify, suspend, or discontinue any part of the Site or these Terms at any time, without prior notice.",
+                    "Any such modifications shall become effective upon posting.",
+                    "You are encouraged to review this page periodically to remain informed of the current version."
+                ]
+            },
+            {
+                "title": "8. Governing Law and Jurisdiction",
+                "content": [
+                    "These Terms shall be governed by and construed in accordance with the laws of India.",
+                    "Any disputes or claims arising from or in connection with these Terms or the use of this Site shall fall under the exclusive jurisdiction of the courts located in [Insert City/State, e.g., Delhi, India]."
+                ]
+            },
+            {
+                "title": "9. Contact Information",
+                "colored": "arshivlegal@gmail.com",
+                "content": [
+                    "For any clarifications, permissions, or concerns regarding these Terms of use, please contact us:"
+                ]
+            },
+            {
+                "title": "10. Acknowledgment",
+                "part10": [
+                    "By continuing to access or use this Site, you affirm that you have read and understood these Terms of use, along with our  and Legal Disclaimer "
+                ],
+                "placeholder1": "Privacy Policy",
+                "link1": "/privacy-policy",
+                "part11": "and",
+                "placeholder2": "Legal Disclaimer",
+                "link2": "legal-disclaimer",
+                "part12": ", and that you agree to be bound by them in full."
+            }
+        ]
+    }, 
+    "testimonials": {
+        "title": "What Clients Say",
+        "list": [
+            {
+                "name": "Jaspreet Singh",
+                "text": "When I received a legal notice, I was quite confused and anxious. Reaching out to Arshiv Legal helped calm things down. They explained the situation clearly and helped me understand what actually mattered, which made the next steps much easier to handle",
+                "rating": 5,
+                "image": "/Images/client-3.webp"
+            },
+            {
+                "name": "Himanshu Shukla",
+                "text": "Guidance was sought to determine whether the matter required formal legal action. Arshiv Legal assessed the situation objectively, explained the legal position with clarity, and outlined the available options without pressure. The consultation brought reassurance and a clear direction for proceeding responsibly.",
+                "rating": 5,
+                "image": "/Images/client-1.webp"
+            },
+            {
+                "name": "Raunak Gupta",
+                "text": "I reached out to Arshiv Legal for help with reviewing some documents. The guidance was thoughtful and easy to follow. It felt good to have someone explain things properly instead of making it sound complicated or intimidating.",
+                "rating": 5,
+                "image": "/Images/client-2.webp"
+            }
+        ]
+    }
+}
