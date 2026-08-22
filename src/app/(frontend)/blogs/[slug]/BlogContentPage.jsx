@@ -34,7 +34,7 @@ export default function BlogContentPage({ blog }) {
   };
 
   return (
-    <main className="w-full min-h-screen bg-background mt-24 pb-24">
+    <main className="w-full min-h-screen bg-background mt-18 pb-24">
       {/* ===== HEADER SECTION ===== */}
       <div className="max-w-5xl mx-auto flex flex-col gap-4 px-4 sm:px-6 md:px-12 lg:px-0 py-s32">
         

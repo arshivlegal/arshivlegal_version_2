@@ -13,7 +13,7 @@ import BlogGrid from '@/components/BlogGrid'
  */
 export default function BlogSection({
   title = 'Latest Blog',
-  subtitle = 'Stay informed with expert articles, legal insights, case analysis, and educational resources covering Intellectual Property Law.',
+  subtitle = 'Expert perspectives and practical advice to help safeguard your creative and technical assets.',
   viewAllText = 'View All Blogs',
   viewAllHref = '/blogs',
   items,

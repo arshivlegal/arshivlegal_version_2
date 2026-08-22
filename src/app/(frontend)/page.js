@@ -3,7 +3,12 @@ import React from "react";
 import { SEO_CONFIG } from "@/lib/seo-config";
 import JsonLd from "@/components/JsonLd";
 import { canonicalize } from "@/utils/canonical";
-import { getWebPageSchema, getWebsiteSchema } from "@/utils/schema";
+import { 
+  getWebPageSchema, 
+  getWebsiteSchema,
+  getOrganizationSchema,
+  getPersonSchema 
+} from "@/utils/schema";
 
 // Import ALL your central fetchers
 import { 
@@ -25,18 +30,28 @@ import DailyLegalContentSection from "@/Sections/Home/DailyLegalContentSection";
 import FounderVision from "@/components/FounderVision";
 import FAQSection from "@/components/FAQSection";
 
-//-----------------------SEO----------------------
+//-----------------------🔥 SEO METADATA ----------------------
 export const metadata = {
-  title: "Arshiv Legal | Law Firm in Kanpur",
+  title: "Arshiv Legal | Intellectual Property Rights (IPR) Experts",
   description:
-    "Arshiv Legal is a law firm in Kanpur offering legal consultation and representation across civil, criminal, and constitutional matters for individuals and families.",
+    "Arshiv Legal is a premier Intellectual Property Rights (IPR) knowledge platform. We provide expert legal guidance, case studies, and resources on patents, trademarks, and copyrights for innovators, researchers, and students.",
   alternates: {
     canonical: canonicalize("/"),
   },
+  keywords: [
+    "Arshiv Legal",
+    "Intellectual Property Rights",
+    "IPR experts Kanpur",
+    "Patent registration guidance",
+    "Trademark protection",
+    "Copyright law education",
+    "Legal resources for researchers",
+    "IP law firm",
+  ],
   openGraph: {
-    title: "Arshiv Legal | Law Firm in Kanpur",
+    title: "Arshiv Legal | Intellectual Property Rights (IPR) Experts",
     description:
-      "Arshiv Legal is a law firm in Kanpur offering legal consultation and representation across civil, criminal, and constitutional matters for individuals and families.",
+      "Arshiv Legal empowers researchers, students, and innovators with structured, reliable guidance on Patents, Trademarks, and Copyrights.",
     url: canonicalize("/"),
     siteName: SEO_CONFIG.siteName,
     locale: "en_IN",
@@ -46,23 +61,50 @@ export const metadata = {
         url: "/og-default.jpg",
         width: 1200,
         height: 630,
-        alt: "Arshiv Legal – Law Firm in Kanpur",
+        alt: "Arshiv Legal – IPR & Patent Experts",
       },
     ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Arshiv Legal | Intellectual Property Rights (IPR) Experts",
+    description:
+      "Arshiv Legal empowers researchers, students, and innovators with structured, reliable guidance on Patents, Trademarks, and Copyrights.",
+    images: ["/og-default.jpg"],
+  },
 };
-//-----------------------SEO end ----------------------
+//-----------------------SEO END ----------------------
 
 export const revalidate = 60;
 
 export default async function Page() {
+  
+  // 1. Page Schema
   const pageSchema = getWebPageSchema({
     title: metadata.title,
     description: metadata.description,
     url: canonicalize("/"),
   });
 
+  // 2. Website Schema (Tells Google this is the root of a site)
   const websiteSchema = getWebsiteSchema();
+
+  // 3. Organization Schema (Validates your business details)
+  const organizationSchema = getOrganizationSchema();
+
+  // 4. Person Schema (Establishes Founder Authority)
+  const personSchema = getPersonSchema({
+    name: "Aryan Pandey",
+    jobTitle: "Principal Legal Professional & Founder",
+    image: `${SEO_CONFIG.siteUrl}/Images/AboutFounder.webp`,
+    url: canonicalize("/"),
+    description:
+      "Aryan Pandey is the founder of Arshiv Legal, dedicated to providing structured Intellectual Property Rights (IPR) guidance for students, researchers, and innovators.",
+    sameAs: [SEO_CONFIG.social.LinkedIn].filter(Boolean),
+  });
+
+  // Combine schemas
+  const ld = [pageSchema, websiteSchema, organizationSchema, personSchema];
 
   // 🔥 Fetch ALL 5 dynamic sections in parallel!
   const [
@@ -83,7 +125,7 @@ export default async function Page() {
 
   return (
     <>
-      <JsonLd data={[pageSchema, websiteSchema].filter(Boolean)} />
+      <JsonLd data={ld.filter(Boolean)} />
 
       <main role="main" className="w-full space-y-[8px]">
         {/* 3. Pass the searchData into your HeroSection */}

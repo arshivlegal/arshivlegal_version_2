@@ -7,29 +7,37 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import DisclaimerGate from "@/components/Disclaimer";
 
+// --------------------------------SEO----------------------------------------
 
-//    --------------------------------SEO----------------------------------------
-
-// GLOBAL METADATA DEFAULTS
+// 🔥 GLOBAL METADATA DEFAULTS (Inherited by all pages unless overridden)
 export const metadata = {
   metadataBase: new URL(SEO_CONFIG.siteUrl),
   title: {
-    default: SEO_CONFIG.siteName,
+    default: `${SEO_CONFIG.siteName} | Intellectual Property Rights (IPR) Experts`,
     template: `%s | ${SEO_CONFIG.siteName}`,
   },
   description: SEO_CONFIG.description,
+  keywords: [
+    "Arshiv Legal",
+    "Intellectual Property Rights India",
+    "IPR experts Kanpur",
+    "Patent registration",
+    "Trademark lawyers",
+    "Copyright protection",
+    "IP resources for innovators",
+  ],
   // Removed global canonical to prevent inheritance issues.
   // Each page will define its own canonical URL explicitly.
   openGraph: {
     siteName: SEO_CONFIG.siteName,
     type: "website",
-    locale: "en-IN",
+    locale: "en_IN",
     images: [
       {
         url: "/og-default.jpg",
         width: 1200,
         height: 630,
-        alt: SEO_CONFIG.siteName,
+        alt: `${SEO_CONFIG.siteName} - IPR Experts`,
       },
     ],
   },
@@ -56,6 +64,7 @@ const Primary = Playfair_Display({
   subsets: ["latin"],
   display: "swap",
 });
+
 const Secondary = Source_Sans_3({
   variable: "--font-Source_Sans_3-sans-serif",
   subsets: ["latin"],
@@ -65,13 +74,16 @@ const Secondary = Source_Sans_3({
 export default function RootLayout({ children }) {
   return (
     <html lang="en-IN" suppressHydrationWarning>
-      <body className={` ${Primary.variable}${Secondary.variable} antialiased`}>
-        {/* Global Organization Schema - Appears on every page */}
+      <body className={`${Primary.variable} ${Secondary.variable} antialiased`}>
+        
+        {/* 🔥 Global Organization Schema - Appears on every page to build massive Google Authority */}
         <JsonLd data={getOrganizationSchema()} />
+        
         <DisclaimerGate />
         <Navbar />
         {children}
         <Footer />
+        
       </body>
     </html>
   );

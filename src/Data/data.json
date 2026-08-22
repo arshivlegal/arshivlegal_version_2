@@ -955,47 +955,47 @@
     },
     "privacyPolicy": {
         "title": "Privacy Policy",
-        "lastUpdated": "Nov 2025",
+        "lastUpdated": "August 2026",
         "Note": {
             "link": "www.arshivlegal.com",
             "name": " (“Arshiv Legal”)."
         },
         "introBlock": [
-            "At Arshiv Legal (“we”, “our”, or “us”), we respect your privacy and value your trust. This Privacy Policy explains how we collect, use, and protect your information when you visit our website ",
+            "At Arshiv Legal (“we”, “our”, or “us”), we are dedicated to supporting students, researchers, and innovators. We respect your privacy and value the trust you place in us when seeking Intellectual Property Rights (IPR) resources on our website ",
             "By using or accessing this Website, you acknowledge and agree to the terms of this Privacy Policy. If you do not agree, please refrain from using the Website."
         ],
-        "notice": "Important Note: Arshiv Legal is an informational firm — not a law firm which represents clients. All content provided here is meant for general understanding and educational purposes only. It should not be used directly for any legal action, case, or proceeding without consulting a qualified professional.",
+        "notice": "Important Note: Arshiv Legal provides educational resources, case studies, and insights related to Intellectual Property Rights (IPR). The content is meant for general understanding. Please do not submit confidential trade secrets, unpatented inventions, or sensitive proprietary data through our website contact forms prior to signing a formal Non-Disclosure Agreement (NDA).",
         "sections": [
             {
                 "number": "1",
                 "heading": "Introduction",
                 "paragraphs": [
-                    "This Privacy Policy outlines how we handle your personal and non-personal information.",
+                    "This Privacy Policy outlines how we handle your personal and non-personal information when you access our IPR resources and services.",
                     "We are committed to protecting user data while maintaining transparency in how we operate.",
                     "Please understand that:"
                 ],
                 "bullets": [
-                    "Any information, articles, or advice shared on this Website are simplified explanations of legal concepts, not professional legal advice.",
-                    "Legal rulings, interpretations, and regulations may vary depending on the jurisdiction and situation.",
-                    "Do not rely on or use any information from this Website as a direct legal reference or substitute for formal legal consultation.",
-                    "Visiting or communicating with Arshiv Legal does not create an attorney–client relationship."
+                    "Any information, articles, or IP insights shared on this Website are simplified explanations of legal concepts, not professional legal advice for your specific invention or brand.",
+                    "Patent, trademark, and copyright laws vary significantly depending on the jurisdiction and the specific nature of the intellectual property.",
+                    "Do not rely on this Website as a direct legal reference for filing IP applications or responding to infringement notices.",
+                    "Visiting or communicating with Arshiv Legal does not automatically create an attorney–client relationship."
                 ]
             },
             {
                 "number": "2",
                 "heading": "Information We Collect",
                 "paragraphs": [
-                    "We collect information to improve our services and respond to your queries responsibly."
+                    "We collect information to improve our IP resources and respond to your legal inquiries responsibly."
                 ],
                 "subsections": [
                     {
                         "title": "a. Personal Information Provided by You",
-                        "Note": "Note:",
+                        "Note": "Crucial IP Warning:",
                         "paragraphs": [
-                            "We may collect your name, email address, contact number, and other details voluntarily submitted through forms, consultations, or communications."
+                            "We may collect your name, email address, contact number, institutional affiliation (if applicable), and inquiry type when voluntarily submitted through our consultation forms."
                         ],
                         "conclusion": [
-                            " Do not share any confidential case documents, sensitive facts, or private information unless explicitly requested for an advisory discussion. We are not responsible for any voluntary disclosure made by you through our Website."
+                            " Do not share confidential technical drawings, source code, unfiled patent claims, or trade secrets through our general web forms. We are not responsible for the loss of novelty or public disclosure of any invention voluntarily submitted through unencrypted web forms."
                         ]
                     },
                     {
@@ -1005,9 +1005,9 @@
                         ],
                         "bullets": [
                             "IP address, browser type, device type, and operating system",
-                            "Pages visited, duration, and referral sources"
+                            "Pages visited (e.g., specific case studies or patent blogs), duration, and referral sources"
                         ],
-                        "lower": "This helps us analyze performance and enhance user experience."
+                        "lower": "This helps us analyze what IP topics researchers and innovators find most valuable."
                     },
                     {
                         "title": "c. Cookies and Tracking Technologies",
@@ -1025,27 +1025,27 @@
                     "We process your information only to:"
                 ],
                 "bullets": [
-                    "Respond to inquiries and provide general information",
-                    "Improve our content, services, and security",
+                    "Respond to IPR consultation requests and provide relevant legal guidance",
+                    "Improve our case studies, articles, and daily IP insights",
                     "Fulfill administrative, technical, or legal requirements",
-                    "Send updates or educational legal content (with your consent)"
+                    "Send updates regarding new patent laws, trademark regulations, or educational content (with your consent)"
                 ],
                 "conclusion": [
                     "We do not use, sell, or misuse your data for commercial gain."
                 ],
                 "lower": [
-                    "All data collected serves communication, security, and informational purposes only."
+                    "All data collected serves communication, security, and informational purposes to better support the innovation community."
                 ]
             },
             {
                 "number": "4",
                 "heading": "No Legal Guarantee or Attorney–Client Relationship",
                 "paragraphs": [
-                    "All content, communication, and materials on this Website are provided for general understanding in simple language. Nothing on this Website should be interpreted as a guarantee, warranty, or promise regarding any legal matter or outcome. No attorney–client relationship is formed by viewing, commenting, or contacting us through this Website.",
-                    "Do not use the content provided here directly for legal filings, court cases, or decision-making. Laws and regulations may differ by state, jurisdiction, or case context, and simplified content here may not reflect recent amendments or localized variations."
+                    "All content, case summaries, and IP materials on this Website are provided for general understanding in simple language. Nothing on this Website should be interpreted as a guarantee that your patent will be granted or your trademark will be registered.",
+                    "Do not use the content provided here directly for IP filings, patent office responses, or infringement litigation. Intellectual property laws are highly technical, and simplified content here may not reflect recent amendments by the IPO, WIPO, or courts."
                 ],
                 "conclusion": [
-                    "Arshiv Legal shall not be held responsible for any loss, damage, or legal consequence arising from reliance on any information shared here."
+                    "Arshiv Legal shall not be held responsible for any loss of IP rights, damages, or legal consequences arising from reliance on any information shared here."
                 ]
             },
             {
@@ -1055,8 +1055,8 @@
                     "We collect and process personal data based on:"
                 ],
                 "bullets": [
-                    "Consent – When you voluntarily provide your information",
-                    "Legitimate interest – To operate and improve the Website",
+                    "Consent – When you voluntarily provide your information to request a resource or consultation",
+                    "Legitimate interest – To operate and improve our IPR platform",
                     "Legal obligation – When required by applicable law or court authority"
                 ]
             },
@@ -1064,8 +1064,8 @@
                 "number": "6",
                 "heading": "Data Security",
                 "paragraphs": [
-                    "We employ reasonable administrative, technical, and physical safeguards to protect your personal information. These include encryption, secure storage, and limited access to authorized personnel.",
-                    "However, no online system is completely secure. We cannot guarantee absolute data protection against unauthorized access, alteration, or misuse."
+                    "We employ reasonable administrative, technical, and physical safeguards to protect your personal information. These include secure storage and limited access to authorized legal personnel.",
+                    "However, no online system is completely secure. We cannot guarantee absolute data protection against unauthorized access. This is why we strictly advise innovators not to submit unprotected intellectual property via web forms."
                 ]
             },
             {
@@ -1081,7 +1081,7 @@
                 "number": "8",
                 "heading": "Data Sharing and Disclosure",
                 "paragraphs": [
-                    "We may share limited information only with trusted service providers who assist in hosting, analytics, or communication — all under confidentiality agreements."
+                    "We may share limited information only with trusted service providers who assist in hosting, analytics, or communication — all under strict confidentiality agreements."
                 ],
                 "bullets": [
                     "We may also disclose data:",
@@ -1100,7 +1100,7 @@
                 "number": "9",
                 "heading": "Third-Party Websites and External Links",
                 "paragraphs": [
-                    "Our Website may contain external links for informational purposes. Arshiv Legal does not own, control, or manage any third-party website linked here.",
+                    "Our Website may contain external links to patent offices, trademark registries, or external IP databases for informational purposes. Arshiv Legal does not own, control, or manage any third-party website linked here.",
                     "We are not responsible for their content, practices, or data protection methods. Visiting external links is entirely at your own risk.",
                     "Please review each third-party's privacy policy before sharing your information."
                 ]
@@ -1126,7 +1126,7 @@
                 "number": "11",
                 "heading": "Cookies and Tracking",
                 "paragraphs": [
-                    "Cookies help us optimize website performance and personalize content.",
+                    "Cookies help us optimize website performance and personalize content tailored to innovators and researchers.",
                     "You can manage or delete cookies via browser settings.",
                     "Disabling cookies may limit access to certain features."
                 ]
@@ -1135,7 +1135,7 @@
                 "number": "12",
                 "heading": "Children’s Privacy",
                 "bullets": [
-                    "This Website is intended for users aged 18 and above.",
+                    "This Website is intended for users aged 18 and above, including university researchers and startup founders.",
                     "We do not knowingly collect personal data from minors."
                 ],
                 "lower": [
@@ -1145,9 +1145,9 @@
             },
             {
                 "number": "13",
-                "heading": "International Data Transfers (If Applicable)",
+                "heading": "International Data Transfers",
                 "paragraphs": [
-                    "If your information is transferred or stored outside your country, we ensure reasonable safeguards are in place.",
+                    "IPR is often global. If your information is transferred or stored outside your country, we ensure reasonable safeguards are in place.",
                     "However, by using this Website, you acknowledge that data may be transferred internationally, and we are not liable for jurisdictional variations in data laws."
                 ]
             },
@@ -1158,8 +1158,8 @@
                     "To the fullest extent permitted by law:"
                 ],
                 "bullets": [
-                    "Arshiv Legal shall not be held responsible or liable for any damages, claims, or losses arising from the use, misuse, or interpretation of information provided here.",
-                    "We make no guarantees or assurances regarding the accuracy, completeness, or legal applicability of the information.",
+                    "Arshiv Legal shall not be held responsible or liable for any damages, claims, or losses (including loss of intellectual property rights) arising from the use, misuse, or interpretation of information provided here.",
+                    "We make no guarantees regarding the accuracy, completeness, or legal applicability of the IPR information.",
                     "All content is for educational purposes and simplified legal awareness only."
                 ],
                 "lower": [
@@ -1181,12 +1181,11 @@
                 "number": "16",
                 "heading": "Contact Information",
                 "paragraphs": [
-                    "For any privacy-related concerns, questions, or requests, please contact us:"
+                    "For any privacy-related concerns, questions, or IP resource requests, please contact us:"
                 ],
                 "colored": [
                     "arshivlegal@gmail.com",
-                    "www.arshivlegal.com",
-                    "[Insert Office Address, optional]"
+                    "www.arshivlegal.com"
                 ],
                 "lower": [
                     "We will do our best to address all genuine concerns promptly and transparently."
@@ -1195,15 +1194,15 @@
         ]
     },
     "termsOfUse": {
-        "title": "Terms of use",
-        "effectiveDate": "November 2025",
+        "title": "Terms of Use",
+        "effectiveDate": "August 2026",
         "website": "www.arshivlegal.com",
         "entity": "Arshiv Legal",
         "sections": [
             {
                 "title": "1. Acceptance of Terms",
                 "content": [
-                    "By accessing or using this website (hereinafter referred to as “the Site”), you acknowledge that you have read, understood, and agree to be bound by these Terms of use (\"Terms\").",
+                    "By accessing or using this website (hereinafter referred to as “the Site”), you acknowledge that you have read, understood, and agree to be bound by these Terms of Use (\"Terms\").",
                     "If you do not consent to these Terms, you are advised to discontinue use immediately.",
                     "Arshiv Legal reserves the absolute right to revise, amend, or replace any part of these Terms at its sole discretion. Continued use of the Site shall constitute acceptance of such revisions."
                 ]
@@ -1212,46 +1211,46 @@
                 "title": "2. Purpose and Scope of Use",
                 "placeholder": "Privacy Policy",
                 "link": "/privacy-policy",
-                "part1": "For all data protection, communication, and consent-related provisions, please refer to our ",
+                "part1": "For all data protection, communication, and consent-related provisions regarding your intellectual property queries, please refer to our ",
                 "part2": ", which forms an integral part of these Terms.",
                 "content": [
-                    "The Site and all content made available herein are intended solely for general informational and educational purposes.",
-                    "Nothing contained on this Site shall be construed as formal legal advice, legal opinion, or the creation of an attorney–client relationship.",
-                    "The content is presented in simplified language to aid understanding of legal topics and should not be relied upon for decision-making in specific matters."
+                    "The Site and all content made available herein are intended solely for general informational and educational purposes, specifically tailored for students, researchers, and innovators seeking knowledge on Intellectual Property Rights (IPR).",
+                    "Nothing contained on this Site shall be construed as formal legal advice, a patentability opinion, or the creation of an attorney–client relationship.",
+                    "The content is presented in simplified language to aid understanding of IP topics (such as Patents, Trademarks, Copyrights, and Designs) and should not be relied upon for decision-making in specific filings or litigation."
                 ]
             },
             {
-                "title": "3. Intellectual Property",
+                "title": "3. Intellectual Property of the Site",
                 "content": [
-                    "Unless otherwise expressly stated, all intellectual property rights, including but not limited to text, graphics, design, logos, and media content appearing on this Site, are the sole and exclusive property of Arshiv Legal.",
-                    "No part of the Site may be copied, reproduced, modified, republished, distributed, or used in any form without prior written permission.",
-                    "Permitted use is strictly limited to personal, non-commercial purposes, provided that original context and credit to Arshiv Legal are maintained."
+                    "Unless otherwise expressly stated, all intellectual property rights, including but not limited to articles, case studies, daily insights, text, graphics, design, logos, and media content appearing on this Site, are the sole and exclusive property of Arshiv Legal.",
+                    "No part of the Site may be copied, reproduced, modified, republished, distributed, scraped, or used in any form without prior written permission.",
+                    "Permitted use is strictly limited to personal, non-commercial educational purposes for researchers and students, provided that original context and credit to Arshiv Legal are maintained."
                 ]
             },
             {
-                "title": "4. User Obligations",
+                "title": "4. User Obligations & Confidentiality",
                 "content": [
                     "By accessing or interacting with the Site, you hereby agree to:",
                     [
-                        "Use the Site in a lawful and responsible manner.",
-                        "Refrain from posting, transmitting, or uploading any unlawful, defamatory, or infringing content.",
-                        "Avoid attempting to disrupt, interfere with, or gain unauthorized access to any part of the Site or its servers."
+                        "Use the Site and its IPR resources in a lawful and responsible manner.",
+                        "Refrain from posting, transmitting, or submitting highly confidential trade secrets or unpatented invention details through the Site's general contact forms.",
+                        "Refrain from attempting to disrupt, interfere with, or scrape the Site's database of case studies and articles."
                     ],
-                    "Arshiv Legal reserves the right to restrict access or initiate legal action against any activity deemed harmful, misleading, or detrimental to its interests or reputation."
+                    "Arshiv Legal assumes no liability for the public disclosure or loss of novelty of any intellectual property that a user voluntarily submits through unsecured or unverified channels on this Site."
                 ]
             },
             {
                 "title": "5. Limitation of Liability",
                 "content": [
-                    "The Site and all content are provided on an “as-is” and “as-available” basis.",
-                    "While reasonable efforts are made to maintain accuracy and reliability, Arshiv Legal makes no warranties or representations, express or implied, as to the completeness, accuracy, or correctness of the information provided herein.",
-                    "To the fullest extent permitted by applicable law, Arshiv Legal and its affiliates shall not be liable for any loss, damage, or consequence arising from your use or reliance upon the Site, whether direct, indirect, incidental, or consequential."
+                    "The Site and all IPR content are provided on an “as-is” and “as-available” basis.",
+                    "While reasonable efforts are made to maintain accuracy, IP laws constantly evolve. Arshiv Legal makes no warranties or representations, express or implied, as to the completeness, accuracy, or correctness of the information provided herein regarding patentability, trademark availability, or copyright protection.",
+                    "To the fullest extent permitted by applicable law, Arshiv Legal and its affiliates shall not be liable for any loss of intellectual property, rejected applications, infringement damages, or consequence arising from your use or reliance upon the Site."
                 ]
             },
             {
                 "title": "6. Third-Party Links",
                 "content": [
-                    "This Site may contain references or hyperlinks to external websites or resources for convenience and informational purposes.",
+                    "This Site may contain references or hyperlinks to external websites, such as national patent offices, trademark registries, or international IP organizations (e.g., WIPO) for educational purposes.",
                     "Arshiv Legal does not endorse, control, or assume responsibility for the content, policies, or practices of any such third-party websites.",
                     "Users are advised to review the respective terms and privacy policies of those external sources before interacting with them."
                 ]
@@ -1259,7 +1258,7 @@
             {
                 "title": "7. Amendments and Termination",
                 "content": [
-                    "Arshiv Legal reserves the right to modify, suspend, or discontinue any part of the Site or these Terms at any time, without prior notice.",
+                    "Arshiv Legal reserves the right to modify, suspend, or discontinue any part of the Site, including its Knowledge Hub or Case Studies, or these Terms at any time, without prior notice.",
                     "Any such modifications shall become effective upon posting.",
                     "You are encouraged to review this page periodically to remain informed of the current version."
                 ]
@@ -1268,30 +1267,30 @@
                 "title": "8. Governing Law and Jurisdiction",
                 "content": [
                     "These Terms shall be governed by and construed in accordance with the laws of India.",
-                    "Any disputes or claims arising from or in connection with these Terms or the use of this Site shall fall under the exclusive jurisdiction of the courts located in [Insert City/State, e.g., Delhi, India]."
+                    "Any disputes or claims arising from or in connection with these Terms or the use of this Site shall fall under the exclusive jurisdiction of the courts located in Kanpur, Uttar Pradesh, India."
                 ]
             },
             {
                 "title": "9. Contact Information",
                 "colored": "arshivlegal@gmail.com",
                 "content": [
-                    "For any clarifications, permissions, or concerns regarding these Terms of use, please contact us:"
+                    "For any clarifications, permissions regarding the use of our IPR content, or concerns regarding these Terms of Use, please contact us:"
                 ]
             },
             {
                 "title": "10. Acknowledgment",
                 "part10": [
-                    "By continuing to access or use this Site, you affirm that you have read and understood these Terms of use, along with our  and Legal Disclaimer "
+                    "By continuing to access or use this Site, you affirm that you have read and understood these Terms of Use, along with our "
                 ],
                 "placeholder1": "Privacy Policy",
                 "link1": "/privacy-policy",
                 "part11": "and",
                 "placeholder2": "Legal Disclaimer",
-                "link2": "legal-disclaimer",
+                "link2": "#",
                 "part12": ", and that you agree to be bound by them in full."
             }
         ]
-    }, 
+    },
     "testimonials": {
         "title": "What Clients Say",
         "list": [

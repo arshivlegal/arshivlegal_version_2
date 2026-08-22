@@ -12,7 +12,7 @@ import ArticleList from '@/components/ArticleList'
  */
 export default function ArticleSection({
   title = 'Articles',
-  subtitle = 'Stay informed with expert articles, legal insights, case analysis, and educational resources covering Intellectual Property Law.',
+  subtitle = 'Thorough legal research and deep dives into the mechanics of intellectual property protection.',
   viewAllText = 'View all Articles',
   viewAllHref = '/articles',
   items,

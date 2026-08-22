@@ -13,7 +13,7 @@ import VideoGrid from '@/components/VideoGrid'
  */
 export default function DailyLegalContentSection({
   title = 'Daily Legal Content',
-  subtitle = 'Stay informed with expert articles, legal insights, case analysis, and educational resources covering Intellectual Property Law.',
+  subtitle = 'Stay ahead of the curve with daily, easy to digest legal insights and video updates.',
   viewAllText = 'View all Videos',
   viewAllHref = '/videos',
   items,

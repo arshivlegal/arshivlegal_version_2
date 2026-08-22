@@ -105,7 +105,7 @@ export default function Hero({ searchSuggestions = [] }) {
               Your Trusted Resource for Intellectual Property Law
             </h1>
             <p className="font-secondary text-[16px] md:text-[18px] text-[var(--text-main)] leading-[1.6]">
-              Explore trademarks, patents, copyrights, industrial designs, landmark case studies, legal news, and study material through reliable and easy-to-understand legal resources.
+              Explore trademarks, patents, copyrights, industrial designs, landmark case studies, legal news, and study material through reliable and easy to understand legal resources.
             </p>
           </div>
 
