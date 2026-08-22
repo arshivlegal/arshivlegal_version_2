@@ -5,7 +5,7 @@ const AnimatedGavelIcon = ({ isOpen }) => {
     <div className="relative w-8 h-8 flex items-center justify-center z-50">
       {/* Top / Left gavel */}
       <Image
-        src="/Images/gavel.svg"
+        src="/Images/gavel-blue.svg"
         alt="Gavel Icon"
         width={32}
         height={32}
@@ -16,7 +16,7 @@ const AnimatedGavelIcon = ({ isOpen }) => {
 
       {/* Bottom / Right gavel */}
       <Image
-        src="/Images/gavel.svg"
+        src="/Images/gavel-blue.svg"
         alt="Gavel Icon"
         width={32}
         height={32}

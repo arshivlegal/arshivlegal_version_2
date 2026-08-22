@@ -140,6 +140,97 @@
     line-height: 1.5;
 }
 
+/* Add this at the bottom of globals.css */
+
+.rich-text-content h1 {
+  font-family: var(--font-Playfair_Display-Serif);
+  font-size: clamp(2.5rem, 3.333vw, 4rem);
+  line-height: clamp(3.5rem, 1.167vw, 5rem);
+  font-weight: 700;
+  margin: 1.5rem 0 1rem;
+  color: var(--text-main);
+}
+
+.rich-text-content h2 {
+  font-family: var(--font-Source_Sans_3-sans-serif);
+  font-size: clamp(1.75rem, 2.5vw, 3rem);
+  line-height: clamp(2.5rem, 3.333vw, 4rem);
+  font-weight: 600;
+  margin: 1.25rem 0 1rem;
+  color: var(--text-main);
+}
+
+.rich-text-content h3 {
+  font-family: var(--font-Source_Sans_3-sans-serif);
+  font-size: clamp(1.5rem, 1.667vw, 2rem);
+  line-height: clamp(2rem, 2.5vw, 3rem);
+  font-weight: 500;
+  margin: 1rem 0 0.75rem;
+  color: var(--text-main);
+}
+
+.rich-text-content h4 {
+  font-family: var(--font-Source_Sans_3-sans-serif);
+  font-size: clamp(1.25rem, 1.25vw, 1.5rem);
+  line-height: clamp(1.75rem, 1.667vw, 2rem);
+  font-weight: 500;
+  margin: 0.75rem 0 0.5rem;
+  color: var(--text-main);
+}
+
+.rich-text-content p {
+  font-family: var(--font-Source_Sans_3-sans-serif);
+  font-size: clamp(1.25rem, 1.25vw, 1.5rem);
+  line-height: clamp(1.75rem, 1.667vw, 2rem);
+  margin: 0 0 1rem;
+  color: var(--text-main);
+}
+
+.rich-text-content li {
+  font-family: var(--font-Source_Sans_3-sans-serif);
+  font-size: clamp(1rem, 1.25vw, 1.125rem); /* Slightly bumped up for readability */
+  line-height: clamp(1.5rem, 1.75vw, 1.75rem);
+  margin: 0.5rem 0;
+  color: var(--text-main);
+}
+
+.rich-text-content ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.rich-text-content ol {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.rich-text-content blockquote {
+  border-left: 4px solid var(--accent-main, #804012);
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  color: var(--text-secondary);
+  font-style: italic;
+  font-family: var(--font-Source_Sans_3-sans-serif);
+  background-color: rgba(128, 64, 18, 0.05); /* Very light accent background */
+  padding: 1rem;
+  border-radius: 0 8px 8px 0;
+}
+
+.rich-text-content a {
+  color: var(--accent-main, #804012);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.rich-text-content img {
+  border-radius: 16px;
+  margin: 2rem 0;
+  width: 100%;
+  height: auto;
+}
+
 /* 🌐 Global Body */
 body {
     background: var(--background);

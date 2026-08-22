@@ -112,10 +112,11 @@ export default function BlogContentPage({ blog }) {
           />
         )}
 
-        {/* Blog Content (TinyMCE Rich Text) */}
-        <article
-          className="blog-content prose prose-sm sm:prose-base md:prose-lg max-w-none animate-fadeIn py-s24 text-[var(--text-main)]"
+        {/* Blog Content (TinyMCE Rich Text) - 🔥 FIXED STYLING AND HYDRATION */}
+        <section
+          className="rich-text-content animate-fadeIn py-s24"
           dangerouslySetInnerHTML={{ __html: blog.content }}
+          suppressHydrationWarning={true}
         />
 
         {/* Footer Note */}

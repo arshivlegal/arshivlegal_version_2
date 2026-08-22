@@ -132,18 +132,17 @@ export default function CaseStudyContentClient({ caseStudy, formattedDate }) {
               <h2 className="text-2xl font-bold text-[var(--primary-main)] mb-6 border-b pb-2">
                 Judgment Details
               </h2>
-              <div 
-                className="prose prose-lg prose-blue max-w-none text-gray-700 
-                  prose-headings:text-[var(--primary-main)] prose-headings:font-bold 
-                  prose-a:text-[var(--accent-main)] prose-a:no-underline hover:prose-a:underline
-                  prose-img:rounded-xl prose-img:shadow-md"
+              {/* 🔥 FIXED STYLING AND HYDRATION */}
+              <section 
+                className="rich-text-content"
                 dangerouslySetInnerHTML={{ __html: caseStudy.content }}
+                suppressHydrationWarning={true}
               />
             </div>
           </div>
 
           {/* RIGHT COLUMN (Sticky Sidebar) */}
-          <div className="lg:col-span-4">
+          <aside className="lg:col-span-4">
             <div className="sticky top-24 bg-white rounded-xl shadow-md border border-gray-100 p-6">
               <h4 className="text-lg font-bold text-[var(--primary-main)] mb-4">
                 Need Legal Assistance?
@@ -160,7 +159,7 @@ export default function CaseStudyContentClient({ caseStudy, formattedDate }) {
                 Consult Our Lawyers
               </button>
             </div>
-          </div>
+          </aside>
 
         </div>
       </section>

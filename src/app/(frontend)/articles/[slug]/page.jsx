@@ -70,6 +70,9 @@ export async function generateMetadata({ params }) {
 //----------------------------------------------------------
 // 🎨 MAIN SERVER COMPONENT
 //----------------------------------------------------------
+//----------------------------------------------------------
+// 🎨 MAIN SERVER COMPONENT
+//----------------------------------------------------------
 export default async function ArticleReaderPage({ params }) {
   const { slug } = await params;
   await dbConnect();
@@ -124,7 +127,16 @@ export default async function ArticleReaderPage({ params }) {
 
   const ld = [articleSchema, breadcrumbSchema];
 
-  // 4. Pass everything to the Client Component
+  // 4. 🔥 DEFINE THE SERIALIZED ARTICLE HERE (This was missing!)
+  const serializedArticle = {
+    ...article,
+    _id: article._id.toString(), 
+    createdAt: article.createdAt?.toISOString() || null,
+    updatedAt: article.updatedAt?.toISOString() || null,
+    dateOfPublishing: article.dateOfPublishing?.toISOString() || null,
+  };
+
+  // 5. Pass everything to the Client Component
   return (
     <>
       {/* 🔥 Inject Invisible JSON-LD Schemas into the Head */}

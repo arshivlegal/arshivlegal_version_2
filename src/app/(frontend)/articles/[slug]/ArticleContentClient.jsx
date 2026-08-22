@@ -111,26 +111,25 @@ export default function ArticleContentClient({ article, formattedDate, readTime 
 
         {/* Article Body Content */}
         {/* Constrained to max-w-3xl to create the perfect reading width. Removed prose-lg and prose-xl to keep text size elegant. */}
-        <div className="max-w-3xl mx-auto">
+       {/* Article Body Content */}
+       {/* Article Body Content - Changed to <section> for stronger boundaries */}
+        <section className="max-w-3xl mx-auto w-full block">
           <div 
-            className="prose max-w-none body-default text-main
-              prose-headings:font-primary prose-headings:text-primary-main prose-headings:font-bold
-              prose-a:text-accent-main prose-a:underline prose-a:decoration-1 prose-a:underline-offset-4 hover:prose-a:text-primary-main
-              prose-blockquote:border-l-[3px] prose-blockquote:border-accent-main prose-blockquote:bg-secondary-light/30 prose-blockquote:py-s8 prose-blockquote:px-s24 prose-blockquote:font-primary prose-blockquote:italic prose-blockquote:text-primary-main
-              prose-img:rounded-r16"
+            className="rich-text-content"
             dangerouslySetInnerHTML={{ __html: article.content }}
+            suppressHydrationWarning={true}
           />
-        </div>
+        </section>
 
-        {/* Author Footer Box - Removed h6, replaced with custom font styling */}
-        <div className="max-w-3xl mx-auto mt-s48 md:mt-s64 p-s24 md:p-s32 bg-secondary-light/50 rounded-r16 border border-secondary-main">
+        {/* Author Footer Box - Changed to <aside> to protect against broken div tags from the CMS */}
+        <aside className="max-w-3xl mx-auto mt-s48 md:mt-s64 p-s24 md:p-s32 bg-secondary-light/50 rounded-r16 border border-secondary-main">
           <h3 className="font-primary font-bold text-[1.25rem] text-primary-main mb-s8">
             About the Author
           </h3>
           <p className="body-default text-secondary">
             {article.author} is an expert in {article.category} law. This article is provided for informational purposes and does not constitute formal legal advice.
           </p>
-        </div>
+        </aside>
         
       </article>
     </main>
