@@ -112,8 +112,7 @@ export default function DisclaimerGate({
                 </h2>
 
                 <p className="body-default text-left text-accent-main ">
-                    By continuing to browse this website you acknowledge that the content is for informationalpurposes only and does not constitute legal advice.By continuing to browse this website you acknowledge that the content is for informational purposes only and does not constitute legal advice.By continuing to browse this website you acknowledge that the content is for informational
-                    purposes only and does not constitute legal advice.
+                    The information and materials available on this website are provided solely for general informational and educational purposes. They should not be interpreted as legal advice, legal opinion, or a substitute for professional legal consultation. Accessing or using this website does not create a lawyer-client relationship between you and Arshiv Legal. For advice regarding your specific legal matter, please consult a qualified legal professional.
                 </p>
 
                 <Button onClick={accept} children={"Accept"} className="" />

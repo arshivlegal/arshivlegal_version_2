@@ -22,7 +22,7 @@ export default function FAQSection({
   contactTitle = "Still have a questions?",
   contactText = "Can't find the answer to your question? Send us an email and we'll get back to you as soon as possible!",
   contactBtnText = "Send email",
-  contactHref = "mailto:contact@arshivlegal.com",
+  contactHref = "mailto:arshivlegal@gmail.com",
 }) {
   // Store the active open question ID (null means all closed, allows 1 open at a time)
   const [openId, setOpenId] = useState(null);

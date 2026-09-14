@@ -36,7 +36,7 @@ export default function FounderVision() {
               The Founder&apos;s Vision
             </h2>
             <p className="font-secondary text-[18px] md:text-[20px] leading-[1.6] text-[var(--text-main)]">
-              &quot;When I started practicing <strong className="font-semibold">Intellectual Property law</strong>, I realized reliable legal knowledge was difficult to access. This platform exists to <strong className="font-semibold">simplify IP law</strong> for businesses, innovators, researchers, and students.&quot;
+              &quot;While building my journey in <strong className="font-semibold">Intellectual Property Law</strong>, I realised that reliable and understandable legal knowledge can be difficult to access. Arshiv Legal is my effort to make <strong className="font-semibold">IP law more accessible</strong> to students, researchers, innovators and businesses.&quot;
             </p>
           </div>
           <span className="font-primary text-[20px] font-semibold text-[var(--accent-main)]">
