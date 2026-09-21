@@ -1,35 +1,42 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { X, Download, FileText, Loader2 } from "lucide-react";
 
 export default function PdfModal({ isOpen, onClose, material }) {
   const [isDownloading, setIsDownloading] = useState(false);
 
+  // Prevent body scrolling when the modal is open
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, [isOpen]);
+
   if (!isOpen || !material) return null;
 
-  // 🔥 THE FIX: Custom function to force a direct download
+  // Custom function to force a direct download (Great logic here!)
   const handleDownload = async () => {
     try {
       setIsDownloading(true);
       
-      // Fetch the file directly from Cloudinary
       const response = await fetch(material.pdfUrl);
       if (!response.ok) throw new Error("Failed to fetch the PDF");
       
-      // Convert it to a Blob (raw file data)
       const blob = await response.blob();
       
-      // Create a temporary local URL for the blob
       const url = window.URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
       
-      // Create a clean filename from the material title
       const safeTitle = material.title.replace(/[^a-zA-Z0-9 ]/g, "").replace(/\s+/g, "_");
       a.download = `${safeTitle}.pdf`;
       
-      // Force the click to download, then clean up
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
@@ -37,12 +44,14 @@ export default function PdfModal({ isOpen, onClose, material }) {
       
     } catch (error) {
       console.error("Direct download failed, falling back to new tab:", error);
-      // Fallback just in case the user's browser blocks the blob fetch
       window.open(material.pdfUrl, "_blank"); 
     } finally {
       setIsDownloading(false);
     }
   };
+
+  // 🔥 THE FIX FOR MOBILE VIEWING: Force Google Docs Viewer
+  const viewerUrl = `https://docs.google.com/gview?url=${encodeURIComponent(material.pdfUrl)}&embedded=true`;
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
@@ -50,16 +59,16 @@ export default function PdfModal({ isOpen, onClose, material }) {
         
         {/* Modal Header */}
         <div className="flex items-center justify-between px-6 py-4 border-b border-gray-200 bg-gray-50">
-          <div className="flex items-center gap-3">
-            <FileText className="w-6 h-6 text-[var(--accent-main)]" />
-            <div>
+          <div className="flex items-center gap-3 overflow-hidden">
+            <FileText className="w-6 h-6 text-[var(--accent-main)] shrink-0" />
+            <div className="overflow-hidden">
               <h3 className="font-bold text-gray-900 text-lg line-clamp-1">{material.title}</h3>
               <p className="text-xs text-gray-500">{material.category} • {material.date}</p>
             </div>
           </div>
 
-          <div className="flex items-center gap-3">
-            {/* 🔥 Updated Download Button */}
+          <div className="flex items-center gap-3 shrink-0 ml-4">
+            {/* Download Button */}
             <button 
               onClick={handleDownload}
               disabled={isDownloading}
@@ -70,7 +79,8 @@ export default function PdfModal({ isOpen, onClose, material }) {
               ) : (
                 <Download className="w-4 h-4" />
               )}
-              {isDownloading ? "Downloading..." : "Download PDF"}
+              {/* Hide text on very small screens to save space */}
+              <span className="hidden sm:inline">{isDownloading ? "Downloading..." : "Download PDF"}</span>
             </button>
 
             {/* Close Button */}
@@ -86,9 +96,10 @@ export default function PdfModal({ isOpen, onClose, material }) {
         {/* PDF Embedded Viewer */}
         <div className="flex-1 w-full bg-gray-100 relative">
           <iframe 
-            src={`${material.pdfUrl}#toolbar=0`} 
+            src={viewerUrl} 
             title={material.title}
             className="w-full h-full border-none"
+            loading="lazy"
           />
         </div>
 

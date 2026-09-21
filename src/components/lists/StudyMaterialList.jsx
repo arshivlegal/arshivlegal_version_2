@@ -3,13 +3,16 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import ConfirmDeleteModal from "@/components/ui/ConfirmDeleteModal";
 import Button from "../ui/Button";
-import { FileText, Edit, Trash2 } from "lucide-react";
+import { FileText, Edit, Trash2, Copy, CheckCircle2 } from "lucide-react"; // 🔥 Added Copy and CheckCircle2 icons
 
 export default function StudyMaterialList() {
   const [materials, setMaterials] = useState([]);
   const [loading, setLoading] = useState(true);
   const [deleteModal, setDeleteModal] = useState({ open: false, id: null, title: "" });
   const [deleting, setDeleting] = useState(false);
+  
+  // 🔥 New state to track which PDF link was just copied
+  const [copiedId, setCopiedId] = useState(null);
 
   const fetchMaterials = async () => {
     try {
@@ -34,6 +37,19 @@ export default function StudyMaterialList() {
     } finally {
       setDeleting(false);
     }
+  };
+
+ // 🔥 Pass the title and the ID to the function now
+  const handleCopyLink = (url, title, id) => {
+    if (!url) return;
+    
+    // Pass BOTH the file URL and the Title into the search parameters
+    const viewableUrl = `${window.location.origin}/pdf-viewer?file=${encodeURIComponent(url)}&title=${encodeURIComponent(title)}`;
+    
+    navigator.clipboard.writeText(viewableUrl).then(() => {
+      setCopiedId(id);
+      setTimeout(() => setCopiedId(null), 2000);
+    });
   };
 
   useEffect(() => { fetchMaterials(); }, []);
@@ -64,10 +80,27 @@ export default function StudyMaterialList() {
             
             <p className="text-sm text-gray-600 line-clamp-3 mb-4 flex-1">{m.description}</p>
             
-            <div className="flex items-center gap-3 pt-4 border-t border-gray-100">
+          <div className="flex items-center gap-2 pt-4 border-t border-gray-100">
+              
+              {/* 1. Edit Button */}
               <Button as="link" href={`/dashboard/study-material/edit/${m._id}`} variant="outliner" className="flex-1 justify-center text-sm">
                 <Edit className="w-4 h-4 mr-2" /> Edit
               </Button>
+              
+              {/* 2. 🔥 CORRECTED Copy Button (Passes url, title, AND id correctly) */}
+              <button
+                onClick={() => handleCopyLink(m.pdfUrl, m.title, m._id)}
+                className="p-3 text-blue-600 hover:bg-blue-50 rounded-lg transition"
+                title="Copy PDF Link"
+              >
+                {copiedId === m._id ? (
+                  <CheckCircle2 className="w-4 h-4 text-green-600" />
+                ) : (
+                  <Copy className="w-4 h-4" />
+                )}
+              </button>
+
+              {/* 3. 🔥 RESTORED Delete Button */}
               <button 
                 onClick={() => setDeleteModal({ open: true, id: m._id, title: m.title })}
                 className="p-3 text-red-500 hover:bg-red-50 rounded-lg transition"
@@ -75,6 +108,7 @@ export default function StudyMaterialList() {
               >
                 <Trash2 className="w-4 h-4" />
               </button>
+              
             </div>
           </div>
         ))}

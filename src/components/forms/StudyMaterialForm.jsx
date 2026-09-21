@@ -122,8 +122,8 @@ export default function StudyMaterialForm({ initialData = null, isEditing = fals
         </div>
       )}
 
-      <Button type="submit" disabled={uploading || isSubmitting} isLoading={uploading || isSubmitting}>
-        {uploading || isSubmitting ? "Saving..." : (isEditing ? "Update Material" : "Publish Material")}
+<Button type="submit" disabled={uploading || isSubmitting}>
+          {uploading || isSubmitting ? "Saving..." : (isEditing ? "Update Material" : "Publish Material")}
       </Button>
     </form>
   );
