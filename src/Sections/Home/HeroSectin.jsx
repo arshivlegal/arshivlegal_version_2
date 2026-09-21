@@ -164,9 +164,9 @@ export default function Hero({ searchSuggestions = [] }) {
             <div className="h-[8px] w-[8px] shrink-0 rounded-full bg-black" />
             <Link href="/case-studies" className="font-secondary text-[16px] text-black underline underline-offset-4 hover:text-[var(--accent-main)]">Case Studies</Link>
             <div className="h-[8px] w-[8px] shrink-0 rounded-full bg-black" />
-            <Link href="/study-materials" className="font-secondary text-[16px] text-black underline underline-offset-4 hover:text-[var(--accent-main)]">Study Material</Link>
+            <Link href="/knowledge-hub" className="font-secondary text-[16px] text-black underline underline-offset-4 hover:text-[var(--accent-main)]">Knowledge Hub</Link>
             <div className="h-[8px] w-[8px] shrink-0 rounded-full bg-black" />
-            <Link href="/news" className="font-secondary text-[16px] text-black underline underline-offset-4 hover:text-[var(--accent-main)]">News</Link>
+            <Link href="/articles" className="font-secondary text-[16px] text-black underline underline-offset-4 hover:text-[var(--accent-main)]">Articles</Link>
           </div>
         </div>
 
