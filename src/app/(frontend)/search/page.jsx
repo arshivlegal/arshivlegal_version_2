@@ -44,6 +44,7 @@ export const metadata = {
 };
 
 // Ensures search always checks for the newest uploads instantly
+export const dynamic = "force-dynamic"
 export const revalidate = 0; 
 
 //----------------------------------------------------------

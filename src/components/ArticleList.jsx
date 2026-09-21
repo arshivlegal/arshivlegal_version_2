@@ -6,7 +6,7 @@ import ArticleCard from '@/components/ui/ArticleCard'
  *
  * @param {Array<object>} items - array of ArticleCard prop objects
  */
-export default function ArticleList({ items = defaultItems }) {
+export default function ArticleList({ items = [] }) {
   return (
     <div className="flex w-full flex-col gap-[60px] lg:gap-[100px]">
       {items.map((item, i) => (

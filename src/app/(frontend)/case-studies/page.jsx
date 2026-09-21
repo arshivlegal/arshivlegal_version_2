@@ -11,7 +11,7 @@ import {
 } from "@/utils/schema";
 
 //----------------------------------------------------------
-// 🔥 SEO METADATA
+//  SEO METADATA
 //----------------------------------------------------------
 export const metadata = {
   title: "IPR Case Studies & Landmark Judgments | Arshiv Legal",
@@ -58,6 +58,8 @@ export const metadata = {
 //----------------------------------------------------------
 // 🎨 MAIN SERVER PAGE
 //----------------------------------------------------------
+export const dynamic = "force-dynamic";
+
 export default async function CaseStudiesPage() {
   let caseStudiesData = [];
 

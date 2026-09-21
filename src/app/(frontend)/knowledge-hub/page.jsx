@@ -9,7 +9,7 @@ import {
   getBreadcrumbSchema,
   getOrganizationSchema,
 } from "@/utils/schema";
-
+export const dynamic = "force-dynamic"
 //----------------------------------------------------------
 // 🔥 SEO METADATA
 //----------------------------------------------------------

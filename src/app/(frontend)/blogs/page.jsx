@@ -54,6 +54,8 @@ export const metadata = {
   },
 };
 
+export const dynamic = "force-dynamic"
+
 export const revalidate = 0; 
 
 // 🔥 MATH HELPER: Calculates read time instantly from the content text
@@ -91,6 +93,8 @@ async function getBlogs() {
     return [];
   }
 }
+
+
 
 //----------------------------------------------------------
 // 🎨 MAIN SERVER PAGE
