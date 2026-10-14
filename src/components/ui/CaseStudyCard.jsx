@@ -2,20 +2,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 /**
- * ContentCard — reusable across Case Studies, Blogs, Articles, Study Material.
- * Pass different props to reuse the same block anywhere; shape maps directly
- * to CMS fields later (image, title, description, meta, link).
- *
- * @param {string} image        - image src (Figma export was a placeholder URL)
- * @param {string} imageAlt     - alt text (required for a11y/SEO — CMS should enforce this)
- * @param {string} title        - card heading
- * @param {'accent'|'link'} titleColor - 'accent' = var(--accent-main) [default],
- *                                       'link'   = var(--Blue-link) variant
- * @param {string} description  - body copy under the title
- * @param {string} meta         - small meta line, e.g. "Copyright • Supreme Court"
- * @param {string} linkText     - CTA text, e.g. "Read More →", "Download PDF"
- * @param {string} href         - link destination
- * @param {'16/9'|'563/241'} aspect - image aspect ratio, defaults to the Figma ratio
+ * CaseStudyCard — reusable across Case Studies, Blogs, Articles, Study Material.
+ * Description is clamped to a maximum of 5 lines with an ellipsis (...).
  */
 export default function CaseStudyCard({
   image = '/images/criminal-law.webp',
@@ -35,11 +23,11 @@ export default function CaseStudyCard({
   return (
     <Link 
       href={href} 
-      className="group flex w-full max-w-[563px] flex-col items-start gap-[var(--S24)]"
+      className="group flex h-full w-full max-w-[563px] flex-col items-start gap-[var(--S24)]"
     >
       {/* Image Wrapper */}
       <div
-        className="relative w-full overflow-hidden rounded-[var(--R16)]"
+        className="relative w-full shrink-0 overflow-hidden rounded-[var(--R16)]"
         style={{ aspectRatio: aspect }}
       >
         <Image
@@ -51,21 +39,32 @@ export default function CaseStudyCard({
         />
       </div>
 
-      {/* Content Wrapper */}
-      <div className="flex w-full flex-col items-start gap-[var(--S24)]">
+      {/* Content Wrapper: flex-1 + justify-between keeps cards equal height in a grid */}
+      <div className="flex w-full flex-1 flex-col items-start justify-between gap-[var(--S24)]">
         <div className="flex w-full flex-col items-start gap-[var(--S16)]">
-          {/* Title with hover color transition */}
+          {/* Title with hover color transition (clamped to 2 lines for clean grid alignment) */}
           <h3
-            className={`heading-h6 px-[var(--S16)] font-semibold self-stretch transition-colors duration-300 group-hover:text-[var(--primary-light)] ${titleColorClass}`}
+            className={`heading-h6 self-stretch px-[var(--S16)] font-semibold transition-colors duration-300 group-hover:text-[var(--primary-light)] line-clamp-2 ${titleColorClass}`}
           >
             {title}
           </h3>
-          <p className="body-default px-[var(--S16)] self-stretch text-[var(--text-main)]">
+
+          {/* 🔥 Description: Strictly clamped to 5 lines max with ... */}
+          <p 
+            className="body-default self-stretch px-[var(--S16)] text-[var(--text-main)] line-clamp-5"
+            style={{
+              display: '-webkit-box',
+              WebkitLineClamp: 5,
+              WebkitBoxOrient: 'vertical',
+              overflow: 'hidden',
+            }}
+          >
             {description}
           </p>
         </div>
 
-        <div className="flex w-full items-center justify-between pl-[var(--S16)] pr-[var(--S24)]">
+        {/* Footer Meta & CTA pinned cleanly to the bottom */}
+        <div className="mt-auto flex w-full items-center justify-between pl-[var(--S16)] pr-[var(--S24)]">
           {meta && (
             <span className="watermark flex-1 text-[var(--text-secondary)]">
               {meta}
@@ -82,36 +81,3 @@ export default function CaseStudyCard({
     </Link>
   )
 }
-/* ---------------------------------------------------------
-   USAGE EXAMPLES
-
-   Case study (accent title — default):
-   <CaseStudyCard
-     image="/images/yahoo-vs-akash.jpg"
-     imageAlt="Yahoo Inc. v. Akash Arora case study"
-     title="Yahoo! Inc. v. Akash Arora"
-     description="A landmark passing off case that established protection for domain names under trademark law in India."
-     meta="Copyright • Supreme Court"
-     linkText="Read More →"
-     href="/case-studies/yahoo-vs-akash-arora"
-   />
-
-   Study material (Blue-link title variant, different CTA):
-   <CaseStudyCard
-     image="/images/software-copyright.jpg"
-     imageAlt="Copyright protection for software"
-     title="Copyright Protection for Software"
-     titleColor="link"
-     description="Understand how software is protected under copyright law and common legal issues."
-     meta="August 7, 2025"
-     linkText="Download PDF"
-     href="/resources/copyright-software.pdf"
-   />
-
-   Grid usage (3 columns, gap matches your spacing scale):
-   <div className="grid grid-cols-1 gap-[var(--S32)] md:grid-cols-2 lg:grid-cols-3">
-     <CaseStudyCard ... />
-     <CaseStudyCard ... />
-     <CaseStudyCard ... />
-   </div>
---------------------------------------------------------- */
